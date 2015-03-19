@@ -1,0 +1,31 @@
+<p>
+  <b>Name:</b>
+  <%=h @factory.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%=h @factory.description %>
+</p>
+
+<p>
+  <b>Created:</b>
+  <%=h @factory.created_at %>
+</p>
+
+<p>
+  <b>Updated:</b>
+  <%=h @factory.updated_at %>
+</p>
+
+<h2>Products: </h2>
+<ul>
+<% @factory.products.each do |p| %>
+    <li><%=h p.name %></li>
+<% end %>
+</ul>
+
+
+<%= link_to 'Edit', edit_company_factory_path(@company,@factory) %> |
+<%= link_to 'Back to Factories', company_factories_path(@company) %>
+<%= link_to 'Manage Products', factory_products_path(@factory) %>

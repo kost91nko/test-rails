@@ -1,0 +1,2151 @@
+/!\ FAILSAFE /!\  Wed Mar 18 15:43:00 +0300 2015
+  Status: 500 Internal Server Error
+  no such file to load -- sqlite3
+    C:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:55:in `gem_original_require'
+    C:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:55:in `require'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.17/lib/active_support/dependencies.rb:182:in `require'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.17/lib/active_support/dependencies.rb:547:in `new_constants_in'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.17/lib/active_support/dependencies.rb:182:in `require'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.17/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.17/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.17/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.17/lib/active_record/connection_adapters/sqlite3_adapter.rb:10:in `sqlite3_connection'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.17/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.17/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.17/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.17/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.17/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.17/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    C:/Ruby187/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.17/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.17/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.17/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.17/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.17/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.17/lib/active_record/query_cache.rb:9:in `cache'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.17/lib/active_record/query_cache.rb:28:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.17/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.17/lib/action_controller/string_coercion.rb:25:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/head.rb:9:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/methodoverride.rb:24:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.17/lib/action_controller/params_parser.rb:15:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.17/lib/action_controller/session/cookie_store.rb:99:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.17/lib/action_controller/failsafe.rb:26:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `synchronize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.17/lib/action_controller/dispatcher.rb:114:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.17/lib/action_controller/reloader.rb:34:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.17/lib/action_controller/dispatcher.rb:108:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.17/lib/rails/rack/static.rb:31:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:47:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.17/lib/rails/rack/log_tailer.rb:17:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/content_length.rb:13:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/chunked.rb:15:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/mongrel.rb:67:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:159:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:158:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:158:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:285:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:285:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:268:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:268:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:268:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/mongrel.rb:38:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.17/lib/commands/server.rb:111
+    C:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:55:in `gem_original_require'
+    C:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:55:in `require'
+    script/server:3
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (168.0ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (2.0ms)[0m   [0;1mSHOW KEYS FROM `schema_migrations`[0m
+  [4;35;1mSQL (150.0ms)[0m   [0mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateCompanies (20150318133703)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateCompanies (20150318133703)
+  [4;36;1mSQL (56.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20150318133703')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateCompanies (20150318133703)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateCompanies (20150318133703)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateCompanies (20150318133703)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateCompanies (20150318133703)
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateCompanies (20150318143409)
+  [4;36;1mSQL (92.0ms)[0m   [0;1mCREATE TABLE `companies` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `phone` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (20.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20150318143409')[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (7.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+  [4;36;1mSQL (4.0ms)[0m   [0;1mdescribe `companies`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW KEYS FROM `companies`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (35.0ms)[0m   [0;1mDROP TABLE `companies`[0m
+  [4;35;1mSQL (22.0ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20150318143409'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateCompanies (20150318143409)
+  [4;36;1mSQL (75.0ms)[0m   [0;1mCREATE TABLE `companies` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `description` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (19.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20150318143409')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (7.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+  [4;36;1mSQL (5.0ms)[0m   [0;1mdescribe `companies`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW KEYS FROM `companies`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mCompany Columns (8.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mCompany Create (0.0ms)[0m   [0;1mINSERT INTO `companies` (`name`, `updated_at`, `created_at`, `description`) VALUES('Company #0', '2015-03-18 15:01:42', '2015-03-18 15:01:42', 'Company description')[0m
+  [4;35;1mSQL (34.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mCompany Create (92.0ms)[0m   [0mINSERT INTO `companies` (`name`, `updated_at`, `created_at`, `description`) VALUES('Company #1', '2015-03-18 15:01:42', '2015-03-18 15:01:42', 'Company description')[0m
+  [4;36;1mSQL (24.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mCompany Create (0.0ms)[0m   [0;1mINSERT INTO `companies` (`name`, `updated_at`, `created_at`, `description`) VALUES('Company #2', '2015-03-18 15:01:42', '2015-03-18 15:01:42', 'Company description')[0m
+  [4;35;1mSQL (19.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mCompany Create (1.0ms)[0m   [0mINSERT INTO `companies` (`name`, `updated_at`, `created_at`, `description`) VALUES('Company #3', '2015-03-18 15:01:42', '2015-03-18 15:01:42', 'Company description')[0m
+  [4;36;1mSQL (21.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mCompany Create (0.0ms)[0m   [0;1mINSERT INTO `companies` (`name`, `updated_at`, `created_at`, `description`) VALUES('Company #4', '2015-03-18 15:01:42', '2015-03-18 15:01:42', 'Company description')[0m
+  [4;35;1mSQL (18.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateCompanies (20150318143409)
+Migrating to CreateFactories (20150318151210)
+  [4;36;1mSQL (75.0ms)[0m   [0;1mCREATE TABLE `factories` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `description` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (20.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20150318151210')[0m
+Migrating to AddCompanyRefToFactories (20150318152302)
+  [4;36;1mSQL (140.0ms)[0m   [0;1mALTER TABLE `factories` ADD `company_id` int(11)[0m
+  [4;35;1mSQL (321.0ms)[0m   [0m ALTER TABLE factories
+ ADD CONSTRAINT fk_factories_companies
+ FOREIGN KEY (company_id)
+ REFERENCES companies(id)
+[0m
+  [4;36;1mSQL (52.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20150318152302')[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (7.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mSQL (4.0ms)[0m   [0mdescribe `companies`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW KEYS FROM `companies`[0m
+  [4;35;1mSQL (6.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+  [4;36;1mSQL (5.0ms)[0m   [0;1mdescribe `factories`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW KEYS FROM `factories`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mCompany Columns (7.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mCompany Create (0.0ms)[0m   [0;1mINSERT INTO `companies` (`name`, `created_at`, `updated_at`, `description`) VALUES('Scand', '2015-03-18 16:04:58', '2015-03-18 16:04:58', 'Scand description')[0m
+  [4;35;1mSQL (35.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mCompany Create (0.0ms)[0m   [0mINSERT INTO `companies` (`name`, `created_at`, `updated_at`, `description`) VALUES('Integral', '2015-03-18 16:04:58', '2015-03-18 16:04:58', 'Integral description')[0m
+  [4;36;1mSQL (18.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mCompany Create (0.0ms)[0m   [0;1mINSERT INTO `companies` (`name`, `created_at`, `updated_at`, `description`) VALUES('Horizont', '2015-03-18 16:04:58', '2015-03-18 16:04:58', 'Horizont description')[0m
+  [4;35;1mSQL (21.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mFactory Columns (6.0ms)[0m   [0;1mSHOW FIELDS FROM `factories`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mCompany Columns (7.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mCompany Create (1.0ms)[0m   [0;1mINSERT INTO `companies` (`created_at`, `name`, `description`, `updated_at`) VALUES('2015-03-18 16:06:02', 'Scand', 'Scand description', '2015-03-18 16:06:02')[0m
+  [4;35;1mSQL (35.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mCompany Create (0.0ms)[0m   [0mINSERT INTO `companies` (`created_at`, `name`, `description`, `updated_at`) VALUES('2015-03-18 16:06:02', 'Integral', 'Integral description', '2015-03-18 16:06:02')[0m
+  [4;36;1mSQL (19.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mCompany Create (0.0ms)[0m   [0;1mINSERT INTO `companies` (`created_at`, `name`, `description`, `updated_at`) VALUES('2015-03-18 16:06:02', 'Horizont', 'Horizont description', '2015-03-18 16:06:02')[0m
+  [4;35;1mSQL (21.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mFactory Columns (6.0ms)[0m   [0;1mSHOW FIELDS FROM `factories`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mFactory Create (0.0ms)[0m   [0;1mINSERT INTO `factories` (`created_at`, `name`, `description`, `updated_at`, `company_id`) VALUES('2015-03-18 16:06:02', 'Scand factory', 'Scand factory desc', '2015-03-18 16:06:02', 9)[0m
+  [4;35;1mSQL (193.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (62.0ms)[0m   [0mCREATE TABLE `companies` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `description` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (65.0ms)[0m   [0mCREATE TABLE `factories` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `description` varchar(255), `created_at` datetime, `updated_at` datetime, `company_id` int(11)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW KEYS FROM `factories`[0m
+  [4;35;1mSQL (109.0ms)[0m   [0mCREATE INDEX `fk_factories_companies` ON `factories` (`company_id`)[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (80.0ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW KEYS FROM `schema_migrations`[0m
+  [4;35;1mSQL (134.0ms)[0m   [0mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM `schema_migrations`[0m
+  [4;36;1mSQL (24.0ms)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20150318152302')[0m
+  [4;35;1mSQL (20.0ms)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20150318143409')[0m
+  [4;36;1mSQL (20.0ms)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20150318151210')[0m
+  [4;35;1mCompany Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mCompany Create (1.0ms)[0m   [0mINSERT INTO `companies` (`created_at`, `updated_at`, `name`, `description`) VALUES('2015-03-18 16:09:45', '2015-03-18 16:09:45', 'Scand', 'Scand description')[0m
+  [4;36;1mSQL (30.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mCompany Create (0.0ms)[0m   [0;1mINSERT INTO `companies` (`created_at`, `updated_at`, `name`, `description`) VALUES('2015-03-18 16:09:45', '2015-03-18 16:09:45', 'Integral', 'Integral description')[0m
+  [4;35;1mSQL (20.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mCompany Create (0.0ms)[0m   [0mINSERT INTO `companies` (`created_at`, `updated_at`, `name`, `description`) VALUES('2015-03-18 16:09:45', '2015-03-18 16:09:45', 'Horizont', 'Horizont description')[0m
+  [4;36;1mSQL (18.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mFactory Columns (6.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mFactory Create (1.0ms)[0m   [0mINSERT INTO `factories` (`created_at`, `updated_at`, `name`, `description`, `company_id`) VALUES('2015-03-18 16:09:45', '2015-03-18 16:09:45', 'Scand factory', 'Scand factory desc', 1)[0m
+  [4;36;1mSQL (33.0ms)[0m   [0;1mCOMMIT[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateCompanies (20150318143409)
+Migrating to CreateFactories (20150318151210)
+Migrating to AddCompanyRefToFactories (20150318152302)
+Migrating to CreateProducts (20150318163426)
+  [4;36;1mSQL (80.0ms)[0m   [0;1mCREATE TABLE `products` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `factory_id` int(11), `name` varchar(255), `description` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (121.0ms)[0m   [0m ALTER TABLE products
+ ADD CONSTRAINT fk_products_factories
+ FOREIGN KEY (factory_id)
+ REFERENCES factories(id)
+[0m
+  [4;36;1mSQL (27.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20150318163426')[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (7.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mSQL (4.0ms)[0m   [0mdescribe `companies`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW KEYS FROM `companies`[0m
+  [4;35;1mSQL (5.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+  [4;36;1mSQL (4.0ms)[0m   [0;1mdescribe `factories`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW KEYS FROM `factories`[0m
+  [4;36;1mSQL (8.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mSQL (9.0ms)[0m   [0mdescribe `products`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW KEYS FROM `products`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (68.0ms)[0m   [0mCREATE TABLE `companies` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `description` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (67.0ms)[0m   [0mCREATE TABLE `factories` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `description` varchar(255), `created_at` datetime, `updated_at` datetime, `company_id` int(11)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW KEYS FROM `factories`[0m
+  [4;35;1mSQL (96.0ms)[0m   [0mCREATE INDEX `fk_factories_companies` ON `factories` (`company_id`)[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (98.0ms)[0m   [0mCREATE TABLE `products` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `factory_id` int(11), `name` varchar(255), `description` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW KEYS FROM `products`[0m
+  [4;35;1mSQL (82.0ms)[0m   [0mCREATE INDEX `fk_products_factories` ON `products` (`factory_id`)[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (59.0ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW KEYS FROM `schema_migrations`[0m
+  [4;35;1mSQL (155.0ms)[0m   [0mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM `schema_migrations`[0m
+  [4;36;1mSQL (20.0ms)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20150318163426')[0m
+  [4;35;1mSQL (25.0ms)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20150318143409')[0m
+  [4;36;1mSQL (18.0ms)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20150318151210')[0m
+  [4;35;1mSQL (22.0ms)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20150318152302')[0m
+  [4;36;1mCompany Columns (7.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mCompany Create (0.0ms)[0m   [0;1mINSERT INTO `companies` (`updated_at`, `name`, `created_at`, `description`) VALUES('2015-03-18 16:44:44', 'Scand', '2015-03-18 16:44:44', 'Scand description')[0m
+  [4;35;1mSQL (28.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mCompany Create (0.0ms)[0m   [0mINSERT INTO `companies` (`updated_at`, `name`, `created_at`, `description`) VALUES('2015-03-18 16:44:44', 'Integral', '2015-03-18 16:44:44', 'Integral description')[0m
+  [4;36;1mSQL (25.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mCompany Create (1.0ms)[0m   [0;1mINSERT INTO `companies` (`updated_at`, `name`, `created_at`, `description`) VALUES('2015-03-18 16:44:44', 'Horizont', '2015-03-18 16:44:44', 'Horizont description')[0m
+  [4;35;1mSQL (18.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mFactory Columns (5.0ms)[0m   [0;1mSHOW FIELDS FROM `factories`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mFactory Create (0.0ms)[0m   [0;1mINSERT INTO `factories` (`updated_at`, `name`, `created_at`, `company_id`, `description`) VALUES('2015-03-18 16:44:44', 'Scand factory', '2015-03-18 16:44:44', 1, 'Scand factory desc')[0m
+  [4;35;1mSQL (30.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mFactory Create (0.0ms)[0m   [0mINSERT INTO `factories` (`updated_at`, `name`, `created_at`, `company_id`, `description`) VALUES('2015-03-18 16:44:44', 'Scand factory 2', '2015-03-18 16:44:44', 1, 'Scand factory 2 desc')[0m
+  [4;36;1mSQL (18.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mFactory Create (0.0ms)[0m   [0;1mINSERT INTO `factories` (`updated_at`, `name`, `created_at`, `company_id`, `description`) VALUES('2015-03-18 16:44:44', 'Integral factory', '2015-03-18 16:44:44', 2, 'Integral factory desc')[0m
+  [4;35;1mSQL (22.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mProduct Columns (9.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mProduct Create (0.0ms)[0m   [0;1mINSERT INTO `products` (`factory_id`, `updated_at`, `name`, `created_at`, `description`) VALUES(1, '2015-03-18 16:44:44', 'Product Scand factory', '2015-03-18 16:44:44', 'Product Scand factory desc')[0m
+  [4;35;1mSQL (31.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Create (0.0ms)[0m   [0mINSERT INTO `products` (`factory_id`, `updated_at`, `name`, `created_at`, `description`) VALUES(2, '2015-03-18 16:44:44', 'Product Integral factory', '2015-03-18 16:44:44', 'Product Integral factory desc')[0m
+  [4;36;1mSQL (17.0ms)[0m   [0;1mCOMMIT[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mProduct Columns (83.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mProduct Load (26.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM `products` LIMIT 1[0m
+  [4;35;1mSQL (59.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM `products` [0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2015-03-19 13:12:22) [GET]
+
+ActionController::RoutingError (No route matches "/home/index.html" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2015-03-19 13:12:33) [GET]
+Rendering home/index
+Completed in 65ms (View: 64, DB: 0) | 200 OK [http://localhost/home/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2015-03-19 13:16:58) [GET]
+Rendering home/index
+Completed in 1ms (View: 0, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2015-03-19 13:17:13) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2015-03-19 13:17:19) [GET]
+Rendering home/index
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2015-03-19 14:09:53) [GET]
+Rendering home/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2015-03-19 14:09:56) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM `products` [0m
+Rendering template within layouts/products
+Rendering products/index
+  [4;35;1mProduct Columns (27.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+
+ActionView::TemplateError (undefined method `references' for #<Product:0x96e3af0>) on line #14 of app/views/products/index.html.erb:
+11:   <tr>
+12:     <td><%=h product.name %></td>
+13:     <td><%=h product.description %></td>
+14:     <td><%=h product.references %></td>
+15:     <td><%= link_to 'Show', product %></td>
+16:     <td><%= link_to 'Edit', edit_product_path(product) %></td>
+17:     <td><%= link_to 'Destroy', product, :confirm => 'Are you sure?', :method => :delete %></td>
+
+    app/views/products/index.html.erb:14
+    app/views/products/index.html.erb:10:in `each'
+    app/views/products/index.html.erb:10
+    app/controllers/products_controller.rb:7:in `index'
+
+Rendered rescues/_trace (30.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2015-03-19 14:11:47) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM `products` [0m
+Rendering template within layouts/products
+Rendering products/index
+  [4;35;1mProduct Columns (12.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+Completed in 3678ms (View: 3662, DB: 13) | 200 OK [http://localhost/products]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2015-03-19 14:11:56) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProduct Columns (12.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+Rendering template within layouts/products
+Rendering products/show
+Completed in 20ms (View: 4, DB: 13) | 200 OK [http://localhost/products/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2015-03-19 14:11:59) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM `products` [0m
+Rendering template within layouts/products
+Rendering products/index
+  [4;35;1mProduct Columns (11.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+Completed in 21ms (View: 6, DB: 12) | 200 OK [http://localhost/products]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2015-03-19 14:12:03) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mProduct Columns (11.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.`id` = 2) [0m
+Rendering template within layouts/products
+Rendering products/show
+Completed in 18ms (View: 2, DB: 12) | 200 OK [http://localhost/products/2]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2015-03-19 14:12:05) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM `products` [0m
+Rendering template within layouts/products
+Rendering products/index
+  [4;35;1mProduct Columns (12.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+Completed in 21ms (View: 5, DB: 13) | 200 OK [http://localhost/products]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#new (for 127.0.0.1 at 2015-03-19 14:12:15) [GET]
+  [4;36;1mProduct Columns (12.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+Rendering template within layouts/products
+Rendering products/new
+Completed in 24ms (View: 8, DB: 13) | 200 OK [http://localhost/products/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2015-03-19 14:12:18) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM `products` [0m
+Rendering template within layouts/products
+Rendering products/index
+  [4;36;1mProduct Columns (12.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+Completed in 20ms (View: 4, DB: 12) | 200 OK [http://localhost/products]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#new (for 127.0.0.1 at 2015-03-19 14:15:06) [GET]
+  [4;35;1mProduct Columns (12.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+Rendering template within layouts/products
+Rendering products/new
+Completed in 20ms (View: 5, DB: 13) | 200 OK [http://localhost/products/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mProduct Columns (12.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mSQL (19.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mProduct Columns (12.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2015-03-19 14:49:29) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM `products` [0m
+Rendering template within layouts/products
+Rendering products/index
+  [4;35;1mProduct Columns (13.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+Completed in 25ms (View: 8, DB: 15) | 200 OK [http://localhost/products]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2015-03-19 14:51:27) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProduct Columns (12.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+Rendering template within layouts/products
+Rendering products/show
+Completed in 44ms (View: 28, DB: 12) | 200 OK [http://localhost/products/1]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2015-03-19 14:51:30) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM `products` [0m
+Rendering template within layouts/products
+Rendering products/index
+  [4;35;1mProduct Columns (11.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+Completed in 23ms (View: 8, DB: 12) | 200 OK [http://localhost/products]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2015-03-19 14:51:31) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mProduct Columns (11.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.`id` = 2) [0m
+Rendering template within layouts/products
+Rendering products/show
+Completed in 18ms (View: 2, DB: 11) | 200 OK [http://localhost/products/2]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2015-03-19 14:51:32) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM `products` [0m
+Rendering template within layouts/products
+Rendering products/index
+  [4;35;1mProduct Columns (11.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+Completed in 23ms (View: 6, DB: 11) | 200 OK [http://localhost/products]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#edit (for 127.0.0.1 at 2015-03-19 14:51:34) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mProduct Columns (12.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.`id` = 2) [0m
+Rendering template within layouts/products
+Rendering products/edit
+Completed in 24ms (View: 8, DB: 13) | 200 OK [http://localhost/products/2/edit]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2015-03-19 14:51:36) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM `products` [0m
+Rendering template within layouts/products
+Rendering products/index
+  [4;35;1mProduct Columns (11.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+Completed in 21ms (View: 6, DB: 12) | 200 OK [http://localhost/products]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#edit (for 127.0.0.1 at 2015-03-19 14:51:37) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProduct Columns (12.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+Rendering template within layouts/products
+Rendering products/edit
+Completed in 21ms (View: 5, DB: 13) | 200 OK [http://localhost/products/1/edit]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2015-03-19 14:52:35) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM `products` [0m
+Rendering template within layouts/products
+Rendering products/index
+  [4;35;1mProduct Columns (12.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+Completed in 22ms (View: 4, DB: 12) | 200 OK [http://localhost/products]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#new (for 127.0.0.1 at 2015-03-19 14:53:20) [GET]
+  [4;36;1mProduct Columns (12.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+Rendering template within layouts/products
+Rendering products/new
+Completed in 21ms (View: 5, DB: 12) | 200 OK [http://localhost/products/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2015-03-19 14:53:23) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM `products` [0m
+Rendering template within layouts/products
+Rendering products/index
+  [4;36;1mProduct Columns (11.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+Completed in 20ms (View: 5, DB: 11) | 200 OK [http://localhost/products]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#new (for 127.0.0.1 at 2015-03-19 15:17:10) [GET]
+  [4;35;1mProduct Columns (12.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+Rendering template within layouts/products
+Rendering products/new
+Completed in 48ms (View: 32, DB: 13) | 200 OK [http://localhost/products/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#create (for 127.0.0.1 at 2015-03-19 15:17:15) [POST]
+  Parameters: {"product"=>{"description"=>"a", "name"=>"a"}, "commit"=>"Create", "authenticity_token"=>"hJKv/qzGkHOMqCOd/h0wavZjjTgN3ZJtShWU+6U7lnc="}
+  [4;36;1mProduct Columns (11.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+Rendering template within layouts/products
+Rendering products/new
+Completed in 23ms (View: 5, DB: 11) | 200 OK [http://localhost/products]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#create (for 127.0.0.1 at 2015-03-19 15:19:45) [POST]
+  Parameters: {"product"=>{"description"=>"a", "name"=>"aaaa"}, "commit"=>"Create", "authenticity_token"=>"hJKv/qzGkHOMqCOd/h0wavZjjTgN3ZJtShWU+6U7lnc="}
+  [4;35;1mProduct Columns (11.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Create (25.0ms)[0m   [0mINSERT INTO `products` (`updated_at`, `description`, `created_at`, `factory_id`, `name`) VALUES('2015-03-19 12:19:45', 'a', '2015-03-19 12:19:45', NULL, 'aaaa')[0m
+  [4;36;1mSQL (35.0ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/products/3
+Completed in 78ms (DB: 72) | 302 Found [http://localhost/products]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2015-03-19 15:19:45) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mProduct Columns (9.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.`id` = 3) [0m
+Rendering template within layouts/products
+Rendering products/show
+Completed in 16ms (View: 2, DB: 10) | 200 OK [http://localhost/products/3]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2015-03-19 15:48:37) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM `products` [0m
+Rendering template within layouts/products
+Rendering products/index
+  [4;35;1mProduct Columns (12.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+Completed in 57ms (View: 14, DB: 12) | 200 OK [http://localhost/products]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#new (for 127.0.0.1 at 2015-03-19 15:48:50) [GET]
+  [4;36;1mProduct Columns (11.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+Rendering template within layouts/products
+Rendering products/new
+Rendered products/_form (5.0ms)
+Completed in 26ms (View: 10, DB: 11) | 200 OK [http://localhost/products/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2015-03-19 15:48:53) [GET]
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM `products` [0m
+Rendering template within layouts/products
+Rendering products/index
+  [4;36;1mProduct Columns (11.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+Completed in 23ms (View: 7, DB: 12) | 200 OK [http://localhost/products]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#edit (for 127.0.0.1 at 2015-03-19 15:48:54) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mProduct Columns (11.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.`id` = 3) [0m
+Rendering template within layouts/products
+Rendering products/edit
+Rendered products/_form (4.0ms)
+Completed in 24ms (View: 8, DB: 12) | 200 OK [http://localhost/products/3/edit]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#index (for 127.0.0.1 at 2015-03-19 17:29:40) [GET]
+  [4;35;1mFactory Load (22.0ms)[0m   [0mSELECT * FROM `factories` [0m
+Rendering template within layouts/factories
+Rendering factories/index
+  [4;36;1mFactory Columns (8.0ms)[0m   [0;1mSHOW FIELDS FROM `factories`[0m
+Completed in 85ms (View: 15, DB: 30) | 200 OK [http://localhost/factories]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#show (for 127.0.0.1 at 2015-03-19 17:29:44) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mFactory Columns (8.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.`id` = 1) [0m
+Rendering template within layouts/factories
+Rendering factories/show
+  [4;35;1mProduct Load (12.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.factory_id = 1) [0m
+  [4;36;1mProduct Columns (9.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+Completed in 42ms (View: 8, DB: 29) | 200 OK [http://localhost/factories/1]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2015-03-19 17:29:53) [GET]
+  Parameters: {"factory_id"=>"1"}
+  [4;35;1mFactory Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.`id` = 1) [0m
+Rendering template within layouts/products
+Rendering products/index
+
+ActionView::TemplateError (undefined method `title' for #<Factory:0x945b058>) on line #1 of app/views/products/index.html.erb:
+1: <h1>Products for <%= @factory.title %></h1>
+2: 
+3: <table>
+4:   <tr>
+
+    app/views/products/index.html.erb:1
+
+Rendered rescues/_trace (26.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2015-03-19 17:30:53) [GET]
+  Parameters: {"factory_id"=>"1"}
+  [4;35;1mFactory Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.`id` = 1) [0m
+Rendering template within layouts/products
+Rendering products/index
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.factory_id = 1) [0m
+  [4;36;1mProduct Columns (9.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+Completed in 33ms (View: 9, DB: 16) | 200 OK [http://localhost/factories/1/products]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2015-03-19 17:31:19) [GET]
+  Parameters: {"factory_id"=>"1", "id"=>"1"}
+  [4;35;1mFactory Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+  [4;36;1mFactory Load (1.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.`id` = 1) [0m
+  [4;35;1mProduct Columns (9.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mProduct Load (19.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.`id` = 1 AND (`products`.factory_id = 1)) [0m
+Rendering template within layouts/products
+Rendering products/show
+Completed in 48ms (View: 5, DB: 36) | 200 OK [http://localhost/factories/1/products/1]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2015-03-19 17:31:25) [GET]
+  Parameters: {"factory_id"=>"1", "id"=>"1"}
+  [4;35;1mFactory Columns (8.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.`id` = 1) [0m
+  [4;35;1mProduct Columns (9.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.`id` = 1 AND (`products`.factory_id = 1)) [0m
+Rendering template within layouts/products
+Rendering products/show
+Completed in 28ms (View: 3, DB: 17) | 200 OK [http://localhost/factories/1/products/1]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2015-03-19 17:31:28) [GET]
+  Parameters: {"factory_id"=>"1", "id"=>"1"}
+  [4;35;1mFactory Columns (8.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.`id` = 1) [0m
+  [4;35;1mProduct Columns (29.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.`id` = 1 AND (`products`.factory_id = 1)) [0m
+Rendering template within layouts/products
+Rendering products/show
+Completed in 46ms (View: 2, DB: 38) | 200 OK [http://localhost/factories/1/products/1]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#edit (for 127.0.0.1 at 2015-03-19 17:31:30) [GET]
+  Parameters: {"factory_id"=>"1", "id"=>"1"}
+  [4;35;1mFactory Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+  [4;36;1mFactory Load (1.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.`id` = 1) [0m
+  [4;35;1mProduct Columns (9.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.`id` = 1 AND (`products`.factory_id = 1)) [0m
+Rendering template within layouts/products
+Rendering products/edit
+Rendered products/_form (5.0ms)
+Completed in 35ms (View: 10, DB: 18) | 200 OK [http://localhost/factories/1/products/1/edit]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2015-03-19 17:31:51) [GET]
+  Parameters: {"factory_id"=>"1"}
+  [4;35;1mFactory Columns (8.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+  [4;36;1mFactory Load (1.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.`id` = 1) [0m
+Rendering template within layouts/products
+Rendering products/index
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.factory_id = 1) [0m
+  [4;36;1mProduct Columns (9.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+Completed in 29ms (View: 4, DB: 19) | 200 OK [http://localhost/factories/1/products]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#index (for 127.0.0.1 at 2015-03-19 17:32:47) [GET]
+  [4;35;1mFactory Load (0.0ms)[0m   [0mSELECT * FROM `factories` [0m
+Rendering template within layouts/factories
+Rendering factories/index
+  [4;36;1mFactory Columns (8.0ms)[0m   [0;1mSHOW FIELDS FROM `factories`[0m
+Completed in 19ms (View: 6, DB: 8) | 200 OK [http://localhost/factories]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#show (for 127.0.0.1 at 2015-03-19 17:32:51) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mFactory Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.`id` = 1) [0m
+Rendering template within layouts/factories
+Rendering factories/show
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.factory_id = 1) [0m
+  [4;36;1mProduct Columns (9.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+Completed in 28ms (View: 6, DB: 17) | 200 OK [http://localhost/factories/1]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#show (for 127.0.0.1 at 2015-03-19 17:33:30) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mFactory Columns (8.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.`id` = 1) [0m
+Rendering template within layouts/factories
+Rendering factories/show
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.factory_id = 1) [0m
+  [4;36;1mProduct Columns (9.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+Completed in 27ms (View: 6, DB: 17) | 200 OK [http://localhost/factories/1]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#show (for 127.0.0.1 at 2015-03-19 17:35:03) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mFactory Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.`id` = 1) [0m
+Rendering template within layouts/factories
+Rendering factories/show
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.factory_id = 1) [0m
+  [4;36;1mProduct Columns (10.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+Completed in 56ms (View: 34, DB: 18) | 200 OK [http://localhost/factories/1]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#show (for 127.0.0.1 at 2015-03-19 17:35:26) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mFactory Columns (12.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+  [4;36;1mFactory Load (1.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.`id` = 1) [0m
+Rendering template within layouts/factories
+Rendering factories/show
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.factory_id = 1) [0m
+  [4;36;1mProduct Columns (9.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+Completed in 34ms (View: 9, DB: 22) | 200 OK [http://localhost/factories/1]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2015-03-19 17:36:00) [GET]
+  Parameters: {"factory_id"=>"1"}
+  [4;35;1mFactory Columns (8.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+  [4;36;1mFactory Load (1.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.`id` = 1) [0m
+Rendering template within layouts/products
+Rendering products/index
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.factory_id = 1) [0m
+  [4;36;1mProduct Columns (9.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+Completed in 31ms (View: 6, DB: 19) | 200 OK [http://localhost/factories/1/products]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#edit (for 127.0.0.1 at 2015-03-19 17:36:06) [GET]
+  Parameters: {"factory_id"=>"1", "id"=>"1"}
+  [4;35;1mFactory Columns (8.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+  [4;36;1mFactory Load (1.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.`id` = 1) [0m
+  [4;35;1mProduct Columns (9.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.`id` = 1 AND (`products`.factory_id = 1)) [0m
+Rendering template within layouts/products
+Rendering products/edit
+Rendered products/_form (4.0ms)
+Completed in 31ms (View: 6, DB: 19) | 200 OK [http://localhost/factories/1/products/1/edit]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2015-03-19 17:36:48) [GET]
+  Parameters: {"factory_id"=>"1", "id"=>"1"}
+  [4;35;1mFactory Columns (10.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.`id` = 1) [0m
+  [4;35;1mProduct Columns (9.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.`id` = 1 AND (`products`.factory_id = 1)) [0m
+Rendering template within layouts/products
+Rendering products/show
+Completed in 31ms (View: 3, DB: 20) | 200 OK [http://localhost/factories/1/products/1]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2015-03-19 17:37:14) [GET]
+  Parameters: {"factory_id"=>"1", "id"=>"1"}
+  [4;35;1mFactory Columns (8.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.`id` = 1) [0m
+  [4;35;1mProduct Columns (10.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.`id` = 1 AND (`products`.factory_id = 1)) [0m
+Rendering template within layouts/products
+Rendering products/show
+Completed in 29ms (View: 4, DB: 19) | 200 OK [http://localhost/factories/1/products/1]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2015-03-19 17:37:15) [GET]
+  Parameters: {"factory_id"=>"1"}
+  [4;35;1mFactory Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.`id` = 1) [0m
+Rendering template within layouts/products
+Rendering products/index
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.factory_id = 1) [0m
+  [4;36;1mProduct Columns (9.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+Completed in 29ms (View: 4, DB: 18) | 200 OK [http://localhost/factories/1/products]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2015-03-19 17:38:41) [GET]
+  Parameters: {"factory_id"=>"1"}
+  [4;35;1mFactory Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.`id` = 1) [0m
+Rendering template within layouts/products
+Rendering products/index
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.factory_id = 1) [0m
+  [4;36;1mProduct Columns (9.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+Completed in 29ms (View: 4, DB: 17) | 200 OK [http://localhost/factories/1/products]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2015-03-19 17:39:33) [GET]
+  Parameters: {"factory_id"=>"1"}
+  [4;35;1mFactory Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.`id` = 1) [0m
+Rendering template within layouts/products
+Rendering products/index
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.factory_id = 1) [0m
+  [4;36;1mProduct Columns (12.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+Completed in 31ms (View: 4, DB: 21) | 200 OK [http://localhost/factories/1/products]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2015-03-19 17:39:51) [GET]
+  Parameters: {"factory_id"=>"1"}
+  [4;35;1mFactory Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.`id` = 1) [0m
+Rendering template within layouts/products
+Rendering products/index
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.factory_id = 1) [0m
+  [4;36;1mProduct Columns (9.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+Completed in 30ms (View: 4, DB: 18) | 200 OK [http://localhost/factories/1/products]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2015-03-19 17:40:27) [GET]
+  Parameters: {"factory_id"=>"1"}
+  [4;35;1mFactory Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.`id` = 1) [0m
+Rendering template within layouts/products
+Rendering products/index
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.factory_id = 1) [0m
+  [4;36;1mProduct Columns (10.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+Completed in 29ms (View: 5, DB: 17) | 200 OK [http://localhost/factories/1/products]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2015-03-19 17:40:53) [GET]
+  Parameters: {"factory_id"=>"1"}
+  [4;35;1mFactory Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.`id` = 1) [0m
+Rendering template within layouts/products
+Rendering products/index
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.factory_id = 1) [0m
+  [4;36;1mProduct Columns (9.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+Completed in 30ms (View: 5, DB: 17) | 200 OK [http://localhost/factories/1/products]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2015-03-19 17:41:15) [GET]
+  Parameters: {"factory_id"=>"1"}
+  [4;35;1mFactory Columns (18.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+  [4;36;1mFactory Load (1.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.`id` = 1) [0m
+Rendering template within layouts/products
+Rendering products/index
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.factory_id = 1) [0m
+  [4;36;1mProduct Columns (9.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+Completed in 40ms (View: 5, DB: 28) | 200 OK [http://localhost/factories/1/products]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#show (for 127.0.0.1 at 2015-03-19 17:41:41) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mFactory Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.`id` = 1) [0m
+Rendering template within layouts/factories
+Rendering factories/show
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.factory_id = 1) [0m
+  [4;36;1mProduct Columns (9.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+Completed in 28ms (View: 7, DB: 16) | 200 OK [http://localhost/factories/1]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#show (for 127.0.0.1 at 2015-03-19 17:43:51) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mFactory Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.`id` = 1) [0m
+Rendering template within layouts/factories
+Rendering factories/show
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.factory_id = 1) [0m
+  [4;36;1mProduct Columns (9.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+Completed in 31ms (View: 9, DB: 16) | 200 OK [http://localhost/factories/1]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2015-03-19 17:44:06) [GET]
+  Parameters: {"factory_id"=>"1"}
+  [4;35;1mFactory Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.`id` = 1) [0m
+Rendering template within layouts/products
+Rendering products/index
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.factory_id = 1) [0m
+  [4;36;1mProduct Columns (9.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+Completed in 30ms (View: 5, DB: 17) | 200 OK [http://localhost/factories/1/products]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#new (for 127.0.0.1 at 2015-03-19 17:44:16) [GET]
+  Parameters: {"factory_id"=>"1"}
+  [4;35;1mFactory Columns (34.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.`id` = 1) [0m
+  [4;35;1mProduct Columns (9.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+Rendering template within layouts/products
+Rendering products/new
+Rendered products/_form (3.0ms)
+Completed in 58ms (View: 7, DB: 44) | 200 OK [http://localhost/factories/1/products/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#create (for 127.0.0.1 at 2015-03-19 17:44:51) [POST]
+  Parameters: {"authenticity_token"=>"hJKv/qzGkHOMqCOd/h0wavZjjTgN3ZJtShWU+6U7lnc=", "factory_id"=>"1", "product"=>{"description"=>"Created product from form", "name"=>"Form product"}, "commit"=>"Create"}
+  [4;36;1mFactory Columns (8.0ms)[0m   [0;1mSHOW FIELDS FROM `factories`[0m
+  [4;35;1mFactory Load (1.0ms)[0m   [0mSELECT * FROM `factories` WHERE (`factories`.`id` = 1) [0m
+  [4;36;1mProduct Columns (9.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+Rendering template within layouts/products
+Rendering products/new
+Rendered products/_form (6.0ms)
+Completed in 34ms (View: 7, DB: 19) | 200 OK [http://localhost/factories/1/products]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#create (for 127.0.0.1 at 2015-03-19 17:48:16) [POST]
+  Parameters: {"authenticity_token"=>"hJKv/qzGkHOMqCOd/h0wavZjjTgN3ZJtShWU+6U7lnc=", "factory_id"=>"1", "product"=>{"description"=>"Created product from form", "name"=>"Form product"}, "commit"=>"Create"}
+  [4;35;1mFactory Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.`id` = 1) [0m
+  [4;35;1mProduct Columns (9.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Create (1.0ms)[0m   [0mINSERT INTO `products` (`created_at`, `factory_id`, `description`, `name`, `updated_at`) VALUES('2015-03-19 14:48:16', 1, 'Created product from form', 'Form product', '2015-03-19 14:48:16')[0m
+  [4;36;1mSQL (35.0ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/factories/1/products/4
+Completed in 62ms (DB: 53) | 302 Found [http://localhost/factories/1/products]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2015-03-19 17:48:17) [GET]
+  Parameters: {"factory_id"=>"1", "id"=>"4"}
+  [4;35;1mFactory Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.`id` = 1) [0m
+  [4;35;1mProduct Columns (9.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.`id` = 4 AND (`products`.factory_id = 1)) [0m
+Rendering template within layouts/products
+Rendering products/show
+Completed in 27ms (View: 3, DB: 16) | 200 OK [http://localhost/factories/1/products/4]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2015-03-19 17:48:22) [GET]
+  Parameters: {"factory_id"=>"1"}
+  [4;35;1mFactory Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.`id` = 1) [0m
+Rendering template within layouts/products
+Rendering products/index
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.factory_id = 1) [0m
+  [4;36;1mProduct Columns (9.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+Completed in 31ms (View: 6, DB: 17) | 200 OK [http://localhost/factories/1/products]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#show (for 127.0.0.1 at 2015-03-19 17:48:28) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mFactory Columns (8.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.`id` = 1) [0m
+Rendering template within layouts/factories
+Rendering factories/show
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.factory_id = 1) [0m
+  [4;36;1mProduct Columns (9.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+Completed in 29ms (View: 7, DB: 17) | 200 OK [http://localhost/factories/1]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#index (for 127.0.0.1 at 2015-03-19 18:41:37) [GET]
+  [4;35;1mCompany Load (14.0ms)[0m   [0mSELECT * FROM `companies` [0m
+Rendering template within layouts/companies
+Rendering companies/index
+  [4;36;1mCompany Columns (7.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+Completed in 39ms (View: 14, DB: 21) | 200 OK [http://localhost/companies]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#show (for 127.0.0.1 at 2015-03-19 18:41:41) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mCompany Columns (27.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` WHERE (`companies`.`id` = 1) [0m
+Rendering template within layouts/companies
+Rendering companies/show
+Completed in 37ms (View: 4, DB: 27) | 200 OK [http://localhost/companies/1]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#index (for 127.0.0.1 at 2015-03-19 18:55:27) [GET]
+  [4;35;1mCompany Load (1.0ms)[0m   [0mSELECT * FROM `companies` [0m
+Rendering template within layouts/companies
+Rendering companies/index
+  [4;36;1mCompany Columns (8.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+Completed in 20ms (View: 7, DB: 9) | 200 OK [http://localhost/companies]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#show (for 127.0.0.1 at 2015-03-19 18:55:29) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mCompany Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+  [4;36;1mCompany Load (1.0ms)[0m   [0;1mSELECT * FROM `companies` WHERE (`companies`.`id` = 1) [0m
+Rendering template within layouts/companies
+Rendering companies/show
+  [4;35;1mFactory Load (1.0ms)[0m   [0mSELECT * FROM `factories` WHERE (`factories`.company_id = 1) [0m
+  [4;36;1mFactory Columns (6.0ms)[0m   [0;1mSHOW FIELDS FROM `factories`[0m
+Completed in 52ms (View: 33, DB: 16) | 200 OK [http://localhost/companies/1]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#index (for 127.0.0.1 at 2015-03-19 18:55:32) [GET]
+  Parameters: {"company_id"=>"1"}
+  [4;35;1mCompany Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` WHERE (`companies`.`id` = 1) [0m
+Rendering template within layouts/factories
+Rendering factories/index
+  [4;35;1mFactory Load (0.0ms)[0m   [0mSELECT * FROM `factories` WHERE (`factories`.company_id = 1) [0m
+  [4;36;1mFactory Columns (5.0ms)[0m   [0;1mSHOW FIELDS FROM `factories`[0m
+Completed in 30ms (View: 10, DB: 12) | 200 OK [http://localhost/companies/1/factories]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#show (for 127.0.0.1 at 2015-03-19 18:55:44) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mCompany Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` WHERE (`companies`.`id` = 1) [0m
+Rendering template within layouts/companies
+Rendering companies/show
+  [4;35;1mFactory Load (0.0ms)[0m   [0mSELECT * FROM `factories` WHERE (`factories`.company_id = 1) [0m
+  [4;36;1mFactory Columns (6.0ms)[0m   [0;1mSHOW FIELDS FROM `factories`[0m
+Completed in 25ms (View: 7, DB: 13) | 200 OK [http://localhost/companies/1]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#index (for 127.0.0.1 at 2015-03-19 18:55:53) [GET]
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` [0m
+Rendering template within layouts/companies
+Rendering companies/index
+  [4;36;1mCompany Columns (7.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+Completed in 18ms (View: 7, DB: 8) | 200 OK [http://localhost/companies]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#show (for 127.0.0.1 at 2015-03-19 18:55:56) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mCompany Columns (8.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` WHERE (`companies`.`id` = 2) [0m
+Rendering template within layouts/companies
+Rendering companies/show
+  [4;35;1mFactory Load (0.0ms)[0m   [0mSELECT * FROM `factories` WHERE (`factories`.company_id = 2) [0m
+  [4;36;1mFactory Columns (6.0ms)[0m   [0;1mSHOW FIELDS FROM `factories`[0m
+Completed in 25ms (View: 7, DB: 15) | 200 OK [http://localhost/companies/2]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#index (for 127.0.0.1 at 2015-03-19 18:55:59) [GET]
+  Parameters: {"company_id"=>"2"}
+  [4;35;1mCompany Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+  [4;36;1mCompany Load (1.0ms)[0m   [0;1mSELECT * FROM `companies` WHERE (`companies`.`id` = 2) [0m
+Rendering template within layouts/factories
+Rendering factories/index
+  [4;35;1mFactory Load (1.0ms)[0m   [0mSELECT * FROM `factories` WHERE (`factories`.company_id = 2) [0m
+  [4;36;1mFactory Columns (6.0ms)[0m   [0;1mSHOW FIELDS FROM `factories`[0m
+Completed in 26ms (View: 4, DB: 15) | 200 OK [http://localhost/companies/2/factories]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#show (for 127.0.0.1 at 2015-03-19 18:56:06) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mCompany Columns (8.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` WHERE (`companies`.`id` = 2) [0m
+Rendering template within layouts/companies
+Rendering companies/show
+  [4;35;1mFactory Load (1.0ms)[0m   [0mSELECT * FROM `factories` WHERE (`factories`.company_id = 2) [0m
+  [4;36;1mFactory Columns (6.0ms)[0m   [0;1mSHOW FIELDS FROM `factories`[0m
+Completed in 26ms (View: 7, DB: 15) | 200 OK [http://localhost/companies/2]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#index (for 127.0.0.1 at 2015-03-19 18:56:10) [GET]
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` [0m
+Rendering template within layouts/companies
+Rendering companies/index
+  [4;36;1mCompany Columns (7.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+Completed in 18ms (View: 7, DB: 7) | 200 OK [http://localhost/companies]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#show (for 127.0.0.1 at 2015-03-19 18:56:15) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mCompany Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` WHERE (`companies`.`id` = 3) [0m
+Rendering template within layouts/companies
+Rendering companies/show
+  [4;35;1mFactory Load (0.0ms)[0m   [0mSELECT * FROM `factories` WHERE (`factories`.company_id = 3) [0m
+Completed in 18ms (View: 5, DB: 7) | 200 OK [http://localhost/companies/3]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#index (for 127.0.0.1 at 2015-03-19 18:56:20) [GET]
+  [4;36;1mCompany Load (1.0ms)[0m   [0;1mSELECT * FROM `companies` [0m
+Rendering template within layouts/companies
+Rendering companies/index
+  [4;35;1mCompany Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+Completed in 18ms (View: 7, DB: 9) | 200 OK [http://localhost/companies]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#show (for 127.0.0.1 at 2015-03-19 18:56:22) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mCompany Columns (8.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 1) [0m
+Rendering template within layouts/companies
+Rendering companies/show
+  [4;36;1mFactory Load (1.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.company_id = 1) [0m
+  [4;35;1mFactory Columns (6.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+Completed in 26ms (View: 6, DB: 15) | 200 OK [http://localhost/companies/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#index (for 127.0.0.1 at 2015-03-19 18:56:24) [GET]
+  Parameters: {"company_id"=>"1"}
+  [4;36;1mCompany Columns (24.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 1) [0m
+Rendering template within layouts/factories
+Rendering factories/index
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.company_id = 1) [0m
+  [4;35;1mFactory Columns (6.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+Completed in 45ms (View: 7, DB: 30) | 200 OK [http://localhost/companies/1/factories]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#show (for 127.0.0.1 at 2015-03-19 18:56:28) [GET]
+  Parameters: {"company_id"=>"1", "id"=>"1"}
+  [4;36;1mCompany Columns (8.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 1) [0m
+  [4;36;1mFactory Columns (6.0ms)[0m   [0;1mSHOW FIELDS FROM `factories`[0m
+  [4;35;1mFactory Load (1.0ms)[0m   [0mSELECT * FROM `factories` WHERE (`factories`.`id` = 1 AND (`factories`.company_id = 1)) [0m
+Rendering template within layouts/factories
+Rendering factories/show
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.factory_id = 1) [0m
+  [4;35;1mProduct Columns (9.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+Completed in 38ms (View: 6, DB: 26) | 200 OK [http://localhost/companies/1/factories/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#index (for 127.0.0.1 at 2015-03-19 18:56:33) [GET]
+
+ActiveRecord::RecordNotFound (Couldn't find Company without an ID):
+  app/controllers/factories_controller.rb:55:in `find_company'
+
+Rendered rescues/_trace (23.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#index (for 127.0.0.1 at 2015-03-19 18:58:09) [GET]
+
+ActiveRecord::RecordNotFound (Couldn't find Company without an ID):
+  app/controllers/factories_controller.rb:55:in `find_company'
+
+Rendered rescues/_trace (22.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#show (for 127.0.0.1 at 2015-03-19 18:59:34) [GET]
+  Parameters: {"company_id"=>"1", "id"=>"1"}
+  [4;36;1mCompany Columns (7.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 1) [0m
+  [4;36;1mFactory Columns (6.0ms)[0m   [0;1mSHOW FIELDS FROM `factories`[0m
+  [4;35;1mFactory Load (0.0ms)[0m   [0mSELECT * FROM `factories` WHERE (`factories`.`id` = 1 AND (`factories`.company_id = 1)) [0m
+Rendering template within layouts/factories
+Rendering factories/show
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.factory_id = 1) [0m
+  [4;35;1mProduct Columns (10.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+Completed in 41ms (View: 9, DB: 24) | 200 OK [http://localhost/companies/1/factories/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#index (for 127.0.0.1 at 2015-03-19 18:59:37) [GET]
+  Parameters: {"company_id"=>"1"}
+  [4;36;1mCompany Columns (8.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (1.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 1) [0m
+Rendering template within layouts/factories
+Rendering factories/index
+  [4;36;1mFactory Load (1.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.company_id = 1) [0m
+  [4;35;1mFactory Columns (6.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+Completed in 28ms (View: 6, DB: 16) | 200 OK [http://localhost/companies/1/factories]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#show (for 127.0.0.1 at 2015-03-19 18:59:42) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mCompany Columns (7.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 1) [0m
+Rendering template within layouts/companies
+Rendering companies/show
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.company_id = 1) [0m
+  [4;35;1mFactory Columns (6.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+Completed in 25ms (View: 7, DB: 13) | 200 OK [http://localhost/companies/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#index (for 127.0.0.1 at 2015-03-19 19:02:57) [GET]
+  [4;36;1mCompany Load (1.0ms)[0m   [0;1mSELECT * FROM `companies` [0m
+Rendering template within layouts/companies
+Rendering companies/index
+  [4;35;1mCompany Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+Completed in 18ms (View: 7, DB: 8) | 200 OK [http://localhost/companies]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#show (for 127.0.0.1 at 2015-03-19 19:03:06) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mCompany Columns (7.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 1) [0m
+Rendering template within layouts/companies
+Rendering companies/show
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.company_id = 1) [0m
+  [4;35;1mFactory Columns (5.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+Completed in 25ms (View: 8, DB: 12) | 200 OK [http://localhost/companies/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#index (for 127.0.0.1 at 2015-03-19 19:03:14) [GET]
+  Parameters: {"company_id"=>"1"}
+  [4;36;1mCompany Columns (7.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (1.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 1) [0m
+Rendering template within layouts/factories
+Rendering factories/index
+  [4;36;1mFactory Load (1.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.company_id = 1) [0m
+  [4;35;1mFactory Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+Completed in 29ms (View: 6, DB: 16) | 200 OK [http://localhost/companies/1/factories]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#show (for 127.0.0.1 at 2015-03-19 19:03:20) [GET]
+  Parameters: {"company_id"=>"1", "id"=>"1"}
+  [4;36;1mCompany Columns (7.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (1.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 1) [0m
+  [4;36;1mFactory Columns (6.0ms)[0m   [0;1mSHOW FIELDS FROM `factories`[0m
+  [4;35;1mFactory Load (0.0ms)[0m   [0mSELECT * FROM `factories` WHERE (`factories`.`id` = 1 AND (`factories`.company_id = 1)) [0m
+Rendering template within layouts/factories
+Rendering factories/show
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.factory_id = 1) [0m
+  [4;35;1mProduct Columns (9.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+Completed in 38ms (View: 6, DB: 24) | 200 OK [http://localhost/companies/1/factories/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2015-03-19 19:03:24) [GET]
+  Parameters: {"factory_id"=>"1"}
+  [4;36;1mFactory Columns (7.0ms)[0m   [0;1mSHOW FIELDS FROM `factories`[0m
+  [4;35;1mFactory Load (0.0ms)[0m   [0mSELECT * FROM `factories` WHERE (`factories`.`id` = 1) [0m
+Rendering template within layouts/products
+Rendering products/index
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.factory_id = 1) [0m
+  [4;35;1mProduct Columns (9.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+Completed in 34ms (View: 10, DB: 16) | 200 OK [http://localhost/factories/1/products]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2015-03-19 19:03:36) [GET]
+  Parameters: {"factory_id"=>"1", "id"=>"1"}
+  [4;36;1mFactory Columns (7.0ms)[0m   [0;1mSHOW FIELDS FROM `factories`[0m
+  [4;35;1mFactory Load (0.0ms)[0m   [0mSELECT * FROM `factories` WHERE (`factories`.`id` = 1) [0m
+  [4;36;1mProduct Columns (9.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.`id` = 1 AND (`products`.factory_id = 1)) [0m
+Rendering template within layouts/products
+Rendering products/show
+Completed in 27ms (View: 2, DB: 16) | 200 OK [http://localhost/factories/1/products/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2015-03-19 19:03:39) [GET]
+  Parameters: {"factory_id"=>"1"}
+  [4;36;1mFactory Columns (7.0ms)[0m   [0;1mSHOW FIELDS FROM `factories`[0m
+  [4;35;1mFactory Load (0.0ms)[0m   [0mSELECT * FROM `factories` WHERE (`factories`.`id` = 1) [0m
+Rendering template within layouts/products
+Rendering products/index
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.factory_id = 1) [0m
+  [4;35;1mProduct Columns (9.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+Completed in 31ms (View: 6, DB: 17) | 200 OK [http://localhost/factories/1/products]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#show (for 127.0.0.1 at 2015-03-19 19:03:42) [GET]
+  Parameters: {"id"=>"1"}
+
+ActiveRecord::RecordNotFound (Couldn't find Company without an ID):
+  app/controllers/factories_controller.rb:55:in `find_company'
+
+Rendered rescues/_trace (48.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2015-03-19 19:10:04) [GET]
+  Parameters: {"factory_id"=>"1"}
+  [4;36;1mFactory Columns (8.0ms)[0m   [0;1mSHOW FIELDS FROM `factories`[0m
+  [4;35;1mFactory Load (1.0ms)[0m   [0mSELECT * FROM `factories` WHERE (`factories`.`id` = 1) [0m
+  [4;36;1mCompany Columns (6.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (1.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 1) [0m
+Rendering template within layouts/products
+Rendering products/index
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.factory_id = 1) [0m
+  [4;35;1mProduct Columns (8.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+Completed in 44ms (View: 9, DB: 25) | 200 OK [http://localhost/factories/1/products]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#show (for 127.0.0.1 at 2015-03-19 19:10:05) [GET]
+  Parameters: {"company_id"=>"1", "id"=>"1"}
+  [4;36;1mCompany Columns (8.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (1.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 1) [0m
+  [4;36;1mFactory Columns (13.0ms)[0m   [0;1mSHOW FIELDS FROM `factories`[0m
+  [4;35;1mFactory Load (0.0ms)[0m   [0mSELECT * FROM `factories` WHERE (`factories`.`id` = 1 AND (`factories`.company_id = 1)) [0m
+Rendering template within layouts/factories
+Rendering factories/show
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.factory_id = 1) [0m
+  [4;35;1mProduct Columns (8.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+Completed in 44ms (View: 7, DB: 31) | 200 OK [http://localhost/companies/1/factories/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#edit (for 127.0.0.1 at 2015-03-19 19:10:12) [GET]
+  Parameters: {"company_id"=>"1", "id"=>"1"}
+  [4;36;1mCompany Columns (8.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 1) [0m
+  [4;36;1mFactory Columns (6.0ms)[0m   [0;1mSHOW FIELDS FROM `factories`[0m
+  [4;35;1mFactory Load (1.0ms)[0m   [0mSELECT * FROM `factories` WHERE (`factories`.`id` = 1 AND (`factories`.company_id = 1)) [0m
+Rendering template within layouts/factories
+Rendering factories/edit
+Rendered factories/_form (5.0ms)
+Completed in 33ms (View: 10, DB: 15) | 200 OK [http://localhost/companies/1/factories/1/edit]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#index (for 127.0.0.1 at 2015-03-19 19:10:22) [GET]
+  Parameters: {"company_id"=>"1"}
+  [4;36;1mCompany Columns (31.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 1) [0m
+Rendering template within layouts/factories
+Rendering factories/index
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.company_id = 1) [0m
+  [4;35;1mFactory Columns (6.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+Completed in 51ms (View: 7, DB: 38) | 200 OK [http://localhost/companies/1/factories]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#show (for 127.0.0.1 at 2015-03-19 19:10:28) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mCompany Columns (7.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (1.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 1) [0m
+Rendering template within layouts/companies
+Rendering companies/show
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.company_id = 1) [0m
+  [4;35;1mFactory Columns (6.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+Completed in 25ms (View: 7, DB: 14) | 200 OK [http://localhost/companies/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#index (for 127.0.0.1 at 2015-03-19 19:10:34) [GET]
+  [4;36;1mCompany Load (1.0ms)[0m   [0;1mSELECT * FROM `companies` [0m
+Rendering template within layouts/companies
+Rendering companies/index
+  [4;35;1mCompany Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+Completed in 19ms (View: 8, DB: 8) | 200 OK [http://localhost/companies]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#show (for 127.0.0.1 at 2015-03-19 19:10:37) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mCompany Columns (7.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 1) [0m
+Rendering template within layouts/companies
+Rendering companies/show
+  [4;36;1mFactory Load (1.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.company_id = 1) [0m
+  [4;35;1mFactory Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+Completed in 53ms (View: 6, DB: 15) | 200 OK [http://localhost/companies/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#index (for 127.0.0.1 at 2015-03-19 19:10:42) [GET]
+  Parameters: {"company_id"=>"1"}
+  [4;36;1mCompany Columns (7.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 1) [0m
+Rendering template within layouts/factories
+Rendering factories/index
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.company_id = 1) [0m
+  [4;35;1mFactory Columns (6.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+Completed in 28ms (View: 8, DB: 13) | 200 OK [http://localhost/companies/1/factories]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#show (for 127.0.0.1 at 2015-03-19 19:10:46) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mCompany Columns (8.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 1) [0m
+Rendering template within layouts/companies
+Rendering companies/show
+  [4;36;1mFactory Load (1.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.company_id = 1) [0m
+  [4;35;1mFactory Columns (6.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+Completed in 25ms (View: 6, DB: 15) | 200 OK [http://localhost/companies/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#index (for 127.0.0.1 at 2015-03-19 19:10:47) [GET]
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` [0m
+Rendering template within layouts/companies
+Rendering companies/index
+  [4;35;1mCompany Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+Completed in 18ms (View: 7, DB: 8) | 200 OK [http://localhost/companies]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#show (for 127.0.0.1 at 2015-03-19 19:10:49) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mCompany Columns (7.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 2) [0m
+Rendering template within layouts/companies
+Rendering companies/show
+  [4;36;1mFactory Load (1.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.company_id = 2) [0m
+  [4;35;1mFactory Columns (6.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+Completed in 26ms (View: 6, DB: 14) | 200 OK [http://localhost/companies/2]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#index (for 127.0.0.1 at 2015-03-19 19:10:50) [GET]
+  Parameters: {"company_id"=>"2"}
+  [4;36;1mCompany Columns (8.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 2) [0m
+Rendering template within layouts/factories
+Rendering factories/index
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.company_id = 2) [0m
+  [4;35;1mFactory Columns (6.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+Completed in 27ms (View: 6, DB: 14) | 200 OK [http://localhost/companies/2/factories]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#show (for 127.0.0.1 at 2015-03-19 19:10:54) [GET]
+  Parameters: {"company_id"=>"2", "id"=>"3"}
+  [4;36;1mCompany Columns (8.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 2) [0m
+  [4;36;1mFactory Columns (6.0ms)[0m   [0;1mSHOW FIELDS FROM `factories`[0m
+  [4;35;1mFactory Load (0.0ms)[0m   [0mSELECT * FROM `factories` WHERE (`factories`.`id` = 3 AND (`factories`.company_id = 2)) [0m
+Rendering template within layouts/factories
+Rendering factories/show
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.factory_id = 3) [0m
+Completed in 27ms (View: 6, DB: 15) | 200 OK [http://localhost/companies/2/factories/3]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#index (for 127.0.0.1 at 2015-03-19 19:10:56) [GET]
+  Parameters: {"company_id"=>"2"}
+  [4;35;1mCompany Columns (8.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` WHERE (`companies`.`id` = 2) [0m
+Rendering template within layouts/factories
+Rendering factories/index
+  [4;35;1mFactory Load (0.0ms)[0m   [0mSELECT * FROM `factories` WHERE (`factories`.company_id = 2) [0m
+  [4;36;1mFactory Columns (31.0ms)[0m   [0;1mSHOW FIELDS FROM `factories`[0m
+Completed in 51ms (View: 5, DB: 39) | 200 OK [http://localhost/companies/2/factories]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#show (for 127.0.0.1 at 2015-03-19 19:11:01) [GET]
+  Parameters: {"company_id"=>"2", "id"=>"3"}
+  [4;35;1mCompany Columns (8.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` WHERE (`companies`.`id` = 2) [0m
+  [4;35;1mFactory Columns (6.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.`id` = 3 AND (`factories`.company_id = 2)) [0m
+Rendering template within layouts/factories
+Rendering factories/show
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.factory_id = 3) [0m
+Completed in 54ms (View: 5, DB: 14) | 200 OK [http://localhost/companies/2/factories/3]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#index (for 127.0.0.1 at 2015-03-19 19:11:03) [GET]
+  Parameters: {"company_id"=>"2"}
+  [4;36;1mCompany Columns (7.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 2) [0m
+Rendering template within layouts/factories
+Rendering factories/index
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.company_id = 2) [0m
+  [4;35;1mFactory Columns (22.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+Completed in 43ms (View: 6, DB: 29) | 200 OK [http://localhost/companies/2/factories]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#show (for 127.0.0.1 at 2015-03-19 19:11:05) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mCompany Columns (8.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 2) [0m
+Rendering template within layouts/companies
+Rendering companies/show
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.company_id = 2) [0m
+  [4;35;1mFactory Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+Completed in 26ms (View: 6, DB: 15) | 200 OK [http://localhost/companies/2]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#index (for 127.0.0.1 at 2015-03-19 19:11:07) [GET]
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` [0m
+Rendering template within layouts/companies
+Rendering companies/index
+  [4;35;1mCompany Columns (18.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+Completed in 29ms (View: 6, DB: 19) | 200 OK [http://localhost/companies]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#show (for 127.0.0.1 at 2015-03-19 19:11:33) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mCompany Columns (7.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (1.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 1) [0m
+Rendering template within layouts/companies
+Rendering companies/show
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.company_id = 1) [0m
+  [4;35;1mFactory Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+Completed in 26ms (View: 7, DB: 15) | 200 OK [http://localhost/companies/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#index (for 127.0.0.1 at 2015-03-19 19:11:36) [GET]
+  Parameters: {"company_id"=>"1"}
+  [4;36;1mCompany Columns (7.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (1.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 1) [0m
+Rendering template within layouts/factories
+Rendering factories/index
+  [4;36;1mFactory Load (1.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.company_id = 1) [0m
+  [4;35;1mFactory Columns (6.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+Completed in 30ms (View: 8, DB: 15) | 200 OK [http://localhost/companies/1/factories]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#show (for 127.0.0.1 at 2015-03-19 19:11:52) [GET]
+  Parameters: {"company_id"=>"1", "id"=>"1"}
+  [4;36;1mCompany Columns (8.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 1) [0m
+  [4;36;1mFactory Columns (6.0ms)[0m   [0;1mSHOW FIELDS FROM `factories`[0m
+  [4;35;1mFactory Load (0.0ms)[0m   [0mSELECT * FROM `factories` WHERE (`factories`.`id` = 1 AND (`factories`.company_id = 1)) [0m
+Rendering template within layouts/factories
+Rendering factories/show
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.factory_id = 1) [0m
+  [4;35;1mProduct Columns (10.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+Completed in 37ms (View: 5, DB: 24) | 200 OK [http://localhost/companies/1/factories/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2015-03-19 19:11:53) [GET]
+  Parameters: {"factory_id"=>"1"}
+  [4;36;1mFactory Columns (8.0ms)[0m   [0;1mSHOW FIELDS FROM `factories`[0m
+  [4;35;1mFactory Load (1.0ms)[0m   [0mSELECT * FROM `factories` WHERE (`factories`.`id` = 1) [0m
+  [4;36;1mCompany Columns (6.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 1) [0m
+Rendering template within layouts/products
+Rendering products/index
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.factory_id = 1) [0m
+  [4;35;1mProduct Columns (9.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+Completed in 41ms (View: 6, DB: 24) | 200 OK [http://localhost/factories/1/products]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2015-03-19 19:11:58) [GET]
+  Parameters: {"factory_id"=>"1", "id"=>"1"}
+  [4;36;1mFactory Columns (8.0ms)[0m   [0;1mSHOW FIELDS FROM `factories`[0m
+  [4;35;1mFactory Load (0.0ms)[0m   [0mSELECT * FROM `factories` WHERE (`factories`.`id` = 1) [0m
+  [4;36;1mProduct Columns (10.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.`id` = 1 AND (`products`.factory_id = 1)) [0m
+Rendering template within layouts/products
+Rendering products/show
+Completed in 28ms (View: 2, DB: 18) | 200 OK [http://localhost/factories/1/products/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2015-03-19 19:12:00) [GET]
+  Parameters: {"factory_id"=>"1"}
+  [4;36;1mFactory Columns (7.0ms)[0m   [0;1mSHOW FIELDS FROM `factories`[0m
+  [4;35;1mFactory Load (0.0ms)[0m   [0mSELECT * FROM `factories` WHERE (`factories`.`id` = 1) [0m
+  [4;36;1mCompany Columns (6.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 1) [0m
+Rendering template within layouts/products
+Rendering products/index
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.factory_id = 1) [0m
+  [4;35;1mProduct Columns (9.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+Completed in 41ms (View: 7, DB: 23) | 200 OK [http://localhost/factories/1/products]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#show (for 127.0.0.1 at 2015-03-19 19:13:25) [GET]
+  Parameters: {"company_id"=>"1", "id"=>"1"}
+  [4;36;1mCompany Columns (21.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (1.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 1) [0m
+  [4;36;1mFactory Columns (6.0ms)[0m   [0;1mSHOW FIELDS FROM `factories`[0m
+  [4;35;1mFactory Load (1.0ms)[0m   [0mSELECT * FROM `factories` WHERE (`factories`.`id` = 1 AND (`factories`.company_id = 1)) [0m
+Rendering template within layouts/factories
+Rendering factories/show
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.factory_id = 1) [0m
+  [4;35;1mProduct Columns (10.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+Completed in 72ms (View: 26, DB: 40) | 200 OK [http://localhost/companies/1/factories/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2015-03-19 19:13:34) [GET]
+  Parameters: {"factory_id"=>"1"}
+  [4;36;1mFactory Columns (7.0ms)[0m   [0;1mSHOW FIELDS FROM `factories`[0m
+  [4;35;1mFactory Load (0.0ms)[0m   [0mSELECT * FROM `factories` WHERE (`factories`.`id` = 1) [0m
+  [4;36;1mCompany Columns (6.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 1) [0m
+Rendering template within layouts/products
+Rendering products/index
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.factory_id = 1) [0m
+  [4;35;1mProduct Columns (10.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+Completed in 40ms (View: 5, DB: 23) | 200 OK [http://localhost/factories/1/products]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#show (for 127.0.0.1 at 2015-03-19 19:13:37) [GET]
+  Parameters: {"company_id"=>"1", "id"=>"1"}
+  [4;36;1mCompany Columns (8.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (1.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 1) [0m
+  [4;36;1mFactory Columns (6.0ms)[0m   [0;1mSHOW FIELDS FROM `factories`[0m
+  [4;35;1mFactory Load (1.0ms)[0m   [0mSELECT * FROM `factories` WHERE (`factories`.`id` = 1 AND (`factories`.company_id = 1)) [0m
+Rendering template within layouts/factories
+Rendering factories/show
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.factory_id = 1) [0m
+  [4;35;1mProduct Columns (9.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+Completed in 38ms (View: 6, DB: 26) | 200 OK [http://localhost/companies/1/factories/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#index (for 127.0.0.1 at 2015-03-19 19:13:41) [GET]
+  Parameters: {"company_id"=>"1"}
+  [4;36;1mCompany Columns (8.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 1) [0m
+Rendering template within layouts/factories
+Rendering factories/index
+  [4;36;1mFactory Load (1.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.company_id = 1) [0m
+  [4;35;1mFactory Columns (6.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+Completed in 28ms (View: 6, DB: 15) | 200 OK [http://localhost/companies/1/factories]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#show (for 127.0.0.1 at 2015-03-19 19:13:43) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mCompany Columns (7.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 1) [0m
+Rendering template within layouts/companies
+Rendering companies/show
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.company_id = 1) [0m
+  [4;35;1mFactory Columns (6.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+Completed in 53ms (View: 36, DB: 13) | 200 OK [http://localhost/companies/1]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2015-03-19 19:15:03) [GET]
+Rendering home/index
+Completed in 6ms (View: 5, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2015-03-19 19:15:40) [GET]
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2015-03-19 19:17:00) [GET]
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2015-03-19 19:17:11) [GET]
+Rendering home/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#index (for 127.0.0.1 at 2015-03-19 19:17:13) [GET]
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` [0m
+Rendering template within layouts/companies
+Rendering companies/index
+  [4;35;1mCompany Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+Completed in 19ms (View: 7, DB: 7) | 200 OK [http://localhost/companies]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#show (for 127.0.0.1 at 2015-03-19 19:17:23) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mCompany Columns (7.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 1) [0m
+Rendering template within layouts/companies
+Rendering companies/show
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.company_id = 1) [0m
+  [4;35;1mFactory Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+Completed in 27ms (View: 8, DB: 15) | 200 OK [http://localhost/companies/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#edit (for 127.0.0.1 at 2015-03-19 19:17:30) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mCompany Columns (7.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 1) [0m
+Rendering template within layouts/companies
+Rendering companies/edit
+Rendered companies/_form (5.0ms)
+Completed in 23ms (View: 11, DB: 7) | 200 OK [http://localhost/companies/1/edit]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#edit (for 127.0.0.1 at 2015-03-19 19:19:07) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mCompany Columns (8.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 1) [0m
+Rendering template within layouts/companies
+Rendering companies/edit
+Rendered companies/_form (5.0ms)
+Completed in 47ms (View: 35, DB: 8) | 200 OK [http://localhost/companies/1/edit]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#update (for 127.0.0.1 at 2015-03-19 19:19:12) [PUT]
+  Parameters: {"authenticity_token"=>"hJKv/qzGkHOMqCOd/h0wavZjjTgN3ZJtShWU+6U7lnc=", "commit"=>"Save", "id"=>"1", "company"=>{"description"=>"Scand description pam pam", "name"=>"Scand"}}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.update_attributes):
+  app/controllers/companies_controller.rb:59:in `update'
+  app/controllers/companies_controller.rb:58:in `update'
+
+Rendered rescues/_trace (22.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#update (for 127.0.0.1 at 2015-03-19 19:20:43) [PUT]
+  Parameters: {"authenticity_token"=>"hJKv/qzGkHOMqCOd/h0wavZjjTgN3ZJtShWU+6U7lnc=", "commit"=>"Save", "id"=>"1", "company"=>{"description"=>"Scand description pam pam", "name"=>"Scand"}}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.update_attributes):
+  app/controllers/companies_controller.rb:59:in `update'
+  app/controllers/companies_controller.rb:58:in `update'
+
+Rendered rescues/_trace (22.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#update (for 127.0.0.1 at 2015-03-19 19:31:49) [PUT]
+  Parameters: {"authenticity_token"=>"hJKv/qzGkHOMqCOd/h0wavZjjTgN3ZJtShWU+6U7lnc=", "commit"=>"Save", "id"=>"1", "company"=>{"description"=>"Scand description pam pam", "name"=>"Scand"}}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.update_attributes):
+  app/controllers/companies_controller.rb:59:in `update'
+  app/controllers/companies_controller.rb:58:in `update'
+
+Rendered rescues/_trace (50.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#index (for 127.0.0.1 at 2015-03-19 19:32:43) [GET]
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` [0m
+Rendering template within layouts/companies
+Rendering companies/index
+  [4;35;1mCompany Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+Completed in 19ms (View: 7, DB: 7) | 200 OK [http://localhost/companies]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#edit (for 127.0.0.1 at 2015-03-19 19:32:46) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mCompany Columns (7.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (1.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 1) [0m
+Rendering template within layouts/companies
+Rendering companies/edit
+Rendered companies/_form (4.0ms)
+Completed in 18ms (View: 6, DB: 8) | 200 OK [http://localhost/companies/1/edit]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#update (for 127.0.0.1 at 2015-03-19 19:32:51) [PUT]
+  Parameters: {"authenticity_token"=>"hJKv/qzGkHOMqCOd/h0wavZjjTgN3ZJtShWU+6U7lnc=", "commit"=>"Save", "id"=>"1", "company"=>{"description"=>"Scand description pam pam", "name"=>"Scand"}}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.update_attributes):
+  app/controllers/companies_controller.rb:59:in `update'
+  app/controllers/companies_controller.rb:58:in `update'
+
+Rendered rescues/_trace (22.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#edit (for 127.0.0.1 at 2015-03-19 19:33:06) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mCompany Columns (7.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 1) [0m
+Rendering template within layouts/companies
+Rendering companies/edit
+Rendered companies/_form (31.0ms)
+Completed in 43ms (View: 32, DB: 8) | 200 OK [http://localhost/companies/1/edit]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#update (for 127.0.0.1 at 2015-03-19 19:33:15) [PUT]
+  Parameters: {"authenticity_token"=>"hJKv/qzGkHOMqCOd/h0wavZjjTgN3ZJtShWU+6U7lnc=", "commit"=>"Save", "id"=>"1", "company"=>{"description"=>"Scand description pam pam", "name"=>"Scand"}}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.update_attributes):
+  app/controllers/companies_controller.rb:59:in `update'
+  app/controllers/companies_controller.rb:58:in `update'
+
+Rendered rescues/_trace (22.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#update (for 127.0.0.1 at 2015-03-19 19:37:00) [PUT]
+  Parameters: {"authenticity_token"=>"hJKv/qzGkHOMqCOd/h0wavZjjTgN3ZJtShWU+6U7lnc=", "commit"=>"Save", "id"=>"1", "company"=>{"description"=>"Scand description pam pam", "name"=>"Scand"}}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.update_attributes):
+  app/controllers/companies_controller.rb:59:in `update'
+  app/controllers/companies_controller.rb:58:in `update'
+
+Rendered rescues/_trace (22.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#update (for 127.0.0.1 at 2015-03-19 19:38:49) [PUT]
+  Parameters: {"authenticity_token"=>"hJKv/qzGkHOMqCOd/h0wavZjjTgN3ZJtShWU+6U7lnc=", "commit"=>"Save", "id"=>"1", "company"=>{"description"=>"Scand description pam pam", "name"=>"Scand"}}
+  [4;36;1mCompany Columns (8.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 1) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mCompany Update (20.0ms)[0m   [0mUPDATE `companies` SET `description` = 'Scand description pam pam', `updated_at` = '2015-03-19 16:38:49' WHERE `id` = 1[0m
+  [4;36;1mSQL (58.0ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/companies/1
+Completed in 93ms (DB: 86) | 302 Found [http://localhost/companies/1]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#show (for 127.0.0.1 at 2015-03-19 19:38:49) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mCompany Columns (5.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+  [4;36;1mCompany Load (1.0ms)[0m   [0;1mSELECT * FROM `companies` WHERE (`companies`.`id` = 1) [0m
+Rendering template within layouts/companies
+Rendering companies/show
+  [4;35;1mFactory Load (0.0ms)[0m   [0mSELECT * FROM `factories` WHERE (`factories`.company_id = 1) [0m
+  [4;36;1mFactory Columns (5.0ms)[0m   [0;1mSHOW FIELDS FROM `factories`[0m
+Completed in 23ms (View: 8, DB: 12) | 200 OK [http://localhost/companies/1]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#index (for 127.0.0.1 at 2015-03-19 19:40:02) [GET]
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` [0m
+Rendering template within layouts/companies
+Rendering companies/index
+  [4;36;1mCompany Columns (7.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+Completed in 46ms (View: 35, DB: 7) | 200 OK [http://localhost/companies]

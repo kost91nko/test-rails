@@ -1,0 +1,28 @@
+<h1>Products for <%= @factory.name  %></h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+  </tr>
+
+  <% for product in @products %>
+      <tr>
+        <td><%=h product.name %></td>
+        <td><%=h product.description %></td>
+        <td><%= link_to 'Show', factory_product_path(@factory, product) %></td>
+        <td>
+          <%= link_to 'Edit', edit_factory_product_path(@factory, product) %>
+        </td>
+        <td>
+          <%= link_to 'Destroy', factory_product_path(@factory, product),
+                      :confirm => 'Are you sure?', :method => :delete %>
+        </td>
+      </tr>
+  <% end %>
+</table>
+
+<br />
+
+<%= link_to 'New product', new_factory_product_path(@factory) %>
+<%= link_to 'Back to factory', company_factory_path(@company, @factory) %>

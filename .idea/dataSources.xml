@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3246179140">
+    <data-source source="LOCAL" name="Rails test: development" uuid="14752f17-b575-4c74-87f8-c6765066e91e">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1:3306/test_production</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfdfdfc4dfcedfcfdfcbdfcedf9bdf98df99</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

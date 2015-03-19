@@ -1,0 +1,30 @@
+<p>
+  <b>Name:</b>
+  <%=h @company.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%=h @company.description %>
+</p>
+
+<p>
+  <b>Created:</b>
+  <%=h @company.created_at %>
+</p>
+
+<p>
+  <b>Updated:</b>
+  <%=h @company.updated_at %>
+</p>
+
+<h2>Factories: </h2>
+<ul>
+  <% @company.factories.each do |p| %>
+      <li><%=h p.name %></li>
+  <% end %>
+</ul>
+
+<%= link_to 'Edit', edit_company_path(@company) %> |
+<%= link_to 'Back to Companies', companies_path %>
+<%= link_to 'Manage Factories', company_factories_path(@company) %>

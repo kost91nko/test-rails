@@ -1,0 +1,22 @@
+<p>
+  <b>Name:</b>
+  <%=h @product.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%=h @product.description %>
+</p>
+
+<p>
+  <b>Created:</b>
+  <%=h @product.created_at %>
+</p>
+
+<p>
+  <b>Updated:</b>
+  <%=h @product.updated_at %>
+</p>
+
+<%= link_to 'Edit', edit_factory_product_path(@factory, @product) %> |
+<%= link_to 'Back to Products', factory_products_path(@factory) %>
