@@ -1,0 +1,26 @@
+
+<h1>Listing companies</h1>
+
+<div id="grid_here" style="width:600px; height:400px;">
+</div>
+
+<script type="text/javascript" charset="utf-8">
+    var grid = new dhtmlXGridObject("grid_here");
+    grid.setImagePath("/javascripts/codebase/imgs/");
+    grid.setHeader("Name, Description, Combo");
+    grid.setInitWidths("100,100,*");
+    grid.setSkin("dhx_skyblue");
+    grid.init();
+    grid.load("/companies/data"); //added !
+
+    dp = new dataProcessor("/companies/dbaction/");
+    dp.init(grid);
+
+    function showCompany(id){
+        window.location = "/companies/" + id
+    }
+</script>
+
+<input type="button" value="Add" onclick="grid.addRow(grid.uid(),'parampamapamaa')">
+<input type="button" value="Delete" onclick="grid.deleteSelectedRows()">
+<input type="button" value="Show" onclick="showCompany(grid.getSelectedRowId())">

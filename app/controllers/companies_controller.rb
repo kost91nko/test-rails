@@ -77,6 +77,48 @@ class CompaniesController < ApplicationController
     end
   end
 
+  # DHTMLX
+  def data
+    @companies = Company.all
+  end
+
+  def dbaction
+    #called for all db actions
+    ids = params["ids"]
+    name        = params[ids + "_c0"]
+    description = params[ids + "_c1"]
+
+    logger.debug "Params: name - #{name} description - #{description}"
+
+    @mode = params[ids + "_!nativeeditor_status"]
+    logger.debug "Mode: #{@mode}"
+
+    @id = params[ids + "_gr_id"]
+    logger.debug "Id: #{@id}"
+
+    case @mode
+      when "inserted"
+        company = Company.new
+        company.name = name
+        company.description = description
+        company.save!
+
+        @tid = company.id
+      when "deleted"
+        company=Company.find(@id)
+        company.destroy
+
+        @tid = @id
+      when "updated"
+        company=Company.find(@id)
+        company.name = name
+        company.description = description
+        company.save!
+
+        @tid = @id
+    end
+  end
+
   private
     def find_company
       @company = Company.find(params[:id])

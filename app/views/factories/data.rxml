@@ -1,0 +1,10 @@
+xml.instruct! :xml, :version=>"1.0"
+
+xml.tag!("rows") do
+  @factories.each do |factory|
+    xml.tag!("row",{ :id => factory.id }) do
+      xml.tag!("cell", factory.name)
+      xml.tag!("cell", factory.description)
+    end
+  end
+end

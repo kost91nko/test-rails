@@ -28,93 +28,93 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="edit.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/companies/edit.html.erb">
+      <file leaf-file-name="view.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/factories/view.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="37" selection-start="131" selection-end="131" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="187">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/companies/new.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="32" selection-start="54" selection-end="54" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="170">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_form.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/companies/_form.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="37" selection-start="228" selection-end="228" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="340">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="companies_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/companies_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="5" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/companies/show.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="30" selection-start="425" selection-end="425" vertical-scroll-proportion="-10.192307" vertical-offset="211" max-vertical-offset="595">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_form.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/products/_form.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="39" selection-start="202" selection-end="202" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="340">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/factories/edit.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="44" selection-start="170" selection-end="170" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="187">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_form.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/factories/_form.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="24" selection-start="283" selection-end="283" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="340">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="companies.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/companies.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="463" selection-end="463" vertical-scroll-proportion="0.7526042" vertical-offset="0" max-vertical-offset="391">
+            <state line="11" column="32" selection-start="351" selection-end="351" vertical-scroll-proportion="-3.5961537" vertical-offset="0" max-vertical-offset="544">
               <folding>
-                <element signature="n#style#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/products/edit.html.erb">
+      <file leaf-file-name="view.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/products/view.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="54" selection-start="180" selection-end="180" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="187">
+            <state line="17" column="0" selection-start="482" selection-end="482" vertical-scroll-proportion="-5.230769" vertical-offset="153" max-vertical-offset="544">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/companies/view.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="0" selection-start="424" selection-end="424" vertical-scroll-proportion="-7.1923075" vertical-offset="51" max-vertical-offset="544">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data.rxml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/products/data.rxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="3" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data.rxml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/companies/data.rxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="3" selection-start="363" selection-end="363" vertical-scroll-proportion="0.5804878" vertical-offset="0" max-vertical-offset="410">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="companies.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/companies.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="0" selection-start="375" selection-end="950" vertical-scroll-proportion="-4.8076925" vertical-offset="28" max-vertical-offset="527">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="factories_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/factories_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="0" selection-start="265" selection-end="265" vertical-scroll-proportion="-2.7818182" vertical-offset="0" max-vertical-offset="1802">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="products_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/products_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="16" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1938">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.17/lib/action_controller/base.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="361" column="4" selection-start="16708" selection-end="16708" vertical-scroll-proportion="0.0" vertical-offset="6005" max-vertical-offset="24327">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="factories.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/factories.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="134" selection-start="950" selection-end="950" vertical-scroll-proportion="-5.4615383" vertical-offset="79" max-vertical-offset="476">
               <folding />
             </state>
           </provider>
@@ -141,37 +141,51 @@
         <option value="$PROJECT_DIR$/db/seeds.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20150318163426_create_products.rb" />
         <option value="$PROJECT_DIR$/app/models/product.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/products.html.erb" />
         <option value="$PROJECT_DIR$/app/models/factory.rb" />
         <option value="$PROJECT_DIR$/app/models/company.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/factories.html.erb" />
         <option value="$PROJECT_DIR$/app/views/products/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/products/edit.html.erb" />
         <option value="$PROJECT_DIR$/public/stylesheets/scaffold.css" />
-        <option value="$PROJECT_DIR$/app/controllers/factories_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/companies/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/companies/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/views/factories/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/factories/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/factories/edit.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/products_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/products/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/companies/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/factories/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/products/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/products/_form.erb" />
         <option value="$PROJECT_DIR$/app/views/factories/_form.erb" />
+        <option value="$PROJECT_DIR$/app/views/companies/dbaction.xml.erb" />
+        <option value="$PROJECT_DIR$/public/javascripts/codebase/dhtmlxcommon.js" />
+        <option value="$PROJECT_DIR$/app/views/layouts/companies.html.erb" />
+        <option value="$PROJECT_DIR$/public/javascripts/codebase/dhtmlxgrid.js" />
         <option value="$PROJECT_DIR$/app/views/companies/_form.erb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/companies/dbaction.rxml" />
+        <option value="$PROJECT_DIR$/config/environment.rb" />
         <option value="$PROJECT_DIR$/app/controllers/companies_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/companies/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/companies/index.html.erb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/factories.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/products.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/factories/data.rxml" />
+        <option value="$PROJECT_DIR$/app/views/products/data.rxml" />
+        <option value="$PROJECT_DIR$/app/views/factories/view.erb" />
+        <option value="$PROJECT_DIR$/app/views/products/view.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/factories_controller.rb" />
+        <option value="C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.17/lib/action_controller/base.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/products_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/companies/view.erb" />
+        <option value="$PROJECT_DIR$/app/views/companies/data.rxml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="497" />
-    <option name="y" value="152" />
-    <option name="width" value="1160" />
+    <option name="y" value="63" />
+    <option name="width" value="1272" />
     <option name="height" value="762" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -200,8 +214,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -357,28 +369,6 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -400,6 +390,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -408,14 +400,21 @@
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
     <property name="FullScreen" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/dhxgrid_with_ror/dhxgrid" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\ruby_projects\test\app\views\companies" />
+      <recent name="C:\ruby_projects\test\app\views\products" />
       <recent name="C:\ruby_projects\test\app\views\factories" />
+      <recent name="C:\ruby_projects\test\app\views\companies" />
+      <recent name="C:\ruby_projects\test\app\views\home" />
+      <recent name="C:\ruby_projects\test\public\javascripts\codebase" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\ruby_projects\test\app\views\companies" />
     </key>
   </component>
-  <component name="RunManager" selected="IRB console.Rails console: test">
+  <component name="RunManager" selected="JavaScript Debug.companies_controller.rb">
     <configuration default="false" name="db:migrate: test" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
       <module name="test" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -476,6 +475,11 @@
       <IRB_RUN_CONFIG NAME="IS_RAILS_CONSOLE" VALUE="true" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="companies_controller.rb" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://127.0.0.1:3000/companies/dbaction">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
     </configuration>
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -606,7 +610,7 @@
       <IRB_RUN_CONFIG NAME="IS_RAILS_CONSOLE" VALUE="false" />
       <method />
     </configuration>
-    <list size="7">
+    <list size="8">
       <item index="0" class="java.lang.String" itemvalue="Rake.test: test" />
       <item index="1" class="java.lang.String" itemvalue="Rake.spec: test" />
       <item index="2" class="java.lang.String" itemvalue="Rails.Production: test" />
@@ -614,12 +618,14 @@
       <item index="4" class="java.lang.String" itemvalue="Rake.db:migrate: test" />
       <item index="5" class="java.lang.String" itemvalue="IRB console.IRB console: test" />
       <item index="6" class="java.lang.String" itemvalue="IRB console.Rails console: test" />
+      <item index="7" class="java.lang.String" itemvalue="JavaScript Debug.companies_controller.rb" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="IRB console.Rails console: test" />
-        <item index="1" class="java.lang.String" itemvalue="IRB console.IRB console: test" />
-        <item index="2" class="java.lang.String" itemvalue="Rake.db:migrate: test" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.companies_controller.rb" />
+        <item index="1" class="java.lang.String" itemvalue="IRB console.Rails console: test" />
+        <item index="2" class="java.lang.String" itemvalue="IRB console.IRB console: test" />
+        <item index="3" class="java.lang.String" itemvalue="Rake.db:migrate: test" />
       </list>
     </recent_temporary>
   </component>
@@ -650,27 +656,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="497" y="152" width="1160" height="762" extended-state="0" />
+    <frame x="497" y="63" width="1272" height="762" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32991204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32991204" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32844576" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.398827" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32991204" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2263986" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2062102" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3168421" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -691,111 +697,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Rakefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script/plugin">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="591" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script/performance/benchmarker">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="591" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/unit/company_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/unit/factory_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/fixtures/factories.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script/generate">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20150318143409_create_companies.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="5" selection-start="228" selection-end="232" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20150318151210_create_factories.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20150318152302_add_company_ref_to_factories.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="30" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html.bak">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="151.23077" vertical-offset="3932" max-vertical-offset="4760" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/home_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="566" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="873" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="566" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="566" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="22" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20150318163426_create_products.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="1" selection-start="448" selection-end="448" vertical-scroll-proportion="0.6908127" vertical-offset="0" max-vertical-offset="566">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="3" selection-start="1221" selection-end="1221" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="0" selection-start="1257" selection-end="1257" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="799">
@@ -805,30 +710,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/products_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="566">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="566" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="873">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="873" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="635">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="635" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/scaffold.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
-          <folding />
-        </state>
+        <state line="7" column="0" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/company.rb">
@@ -852,135 +749,396 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/products.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="490" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="391">
-          <folding>
-            <marker date="1426765760116" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1426765760116" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1426765760116" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1426765760116" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1426765760116" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/factories_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="410">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/factories_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="211" selection-end="211" vertical-scroll-proportion="10.545455" vertical-offset="716" max-vertical-offset="1071">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/companies/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="7" selection-start="93" selection-end="93" vertical-scroll-proportion="-1.0384616" vertical-offset="75" max-vertical-offset="459">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/factories.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="7" selection-start="484" selection-end="484" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="374">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="410" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/products/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="42" selection-start="97" selection-end="97" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="153">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/factories/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="11" selection-start="611" selection-end="611" vertical-scroll-proportion="-11.115385" vertical-offset="51" max-vertical-offset="561">
-          <folding />
-        </state>
+        <state line="3" column="42" selection-start="97" selection-end="97" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="153" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/factories/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="55" selection-start="110" selection-end="110" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="153">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/products_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="9" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1190">
-          <folding />
-        </state>
+        <state line="3" column="55" selection-start="110" selection-end="110" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="153" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/products/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="21" selection-start="177" selection-end="177" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="561">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/factories/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="30" selection-start="435" selection-end="435" vertical-scroll-proportion="-11.115385" vertical-offset="204" max-vertical-offset="612">
-          <folding />
-        </state>
+        <state line="10" column="21" selection-start="177" selection-end="177" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="561" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/products/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="17" selection-start="133" selection-end="133" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="459">
-          <folding />
-        </state>
+        <state line="11" column="17" selection-start="133" selection-end="133" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="459" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="41" selection-start="125" selection-end="125" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="136">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="47" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
-          <folding />
-        </state>
+        <state line="2" column="41" selection-start="125" selection-end="125" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="136" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/products/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="54" selection-start="180" selection-end="180" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="187">
-          <folding />
-        </state>
+        <state line="5" column="54" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="187" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/products/_form.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="39" selection-start="202" selection-end="202" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="340">
+        <state line="8" column="39" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="340">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/factories/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="44" selection-start="170" selection-end="170" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="187">
-          <folding />
-        </state>
+        <state line="5" column="44" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="187" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/factories/_form.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="24" selection-start="283" selection-end="283" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="340">
+        <state line="12" column="24" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="340">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/codebase/dhtmlxgrid.js.bak">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="244" selection-end="244" vertical-scroll-proportion="-3.5769231" vertical-offset="26" max-vertical-offset="14382">
+          <folding>
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="/*...*/" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{&quot;imgURL&quot;: null...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{&quot;loading&quot;: &quot;Loading&quot;...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{&quot;top&quot;: &quot;rows&quot;...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{&quot;row&quot;: &quot;\n&quot;...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{&quot;image_path&quot;: &quot;setImagePath&quot;...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1276153492000" expanded="true" signature="-1:-1" placeholder="/*...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/codebase/dhtmlxgridcell.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="29" selection-start="245" selection-end="274" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="3910">
+          <folding>
+            <marker date="1276153492000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1276153492000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1276153492000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1276153492000" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/codebase/dhtmlxcommon.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="33" selection-start="6474" selection-end="6505" vertical-scroll-proportion="-7.1923075" vertical-offset="408" max-vertical-offset="1785">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/codebase/dhtmlxgrid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="386018" selection-start="386288" selection-end="386288" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="238">
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -991,6 +1149,269 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="518" selection-end="518" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/companies/_form.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="7" selection-start="7" selection-end="7" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="340">
+          <folding>
+            <marker date="1426856517721" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1426856517721" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1426856517721" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.17/lib/initializer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="23" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="442">
+          <folding>
+            <element signature="e#336#39775#0" expanded="false" />
+            <element signature="e#351#1525#0" expanded="false" />
+            <element signature="e#442#489#0" expanded="false" />
+            <element signature="e#495#574#0" expanded="false" />
+            <element signature="e#580#632#0" expanded="false" />
+            <element signature="e#638#710#0" expanded="false" />
+            <element signature="e#716#836#0" expanded="false" />
+            <element signature="e#733#828#2" expanded="false" />
+            <element signature="e#842#1102#0" expanded="false" />
+            <element signature="e#894#1094#0" expanded="false" />
+            <element signature="e#1108#1179#0" expanded="false" />
+            <element signature="e#1185#1261#0" expanded="false" />
+            <element signature="e#1267#1302#0" expanded="false" />
+            <element signature="e#1308#1349#0" expanded="false" />
+            <element signature="e#1355#1456#0" expanded="false" />
+            <element signature="e#1462#1519#0" expanded="false" />
+            <element signature="e#351#39771#1" expanded="false" />
+            <element signature="e#2182#22665#0" expanded="false" />
+            <element signature="e#2272#22659#1" expanded="false" />
+            <element signature="e#2907#3112#0" expanded="false" />
+            <element signature="e#2272#22659#1" expanded="false" />
+            <element signature="e#3214#3315#0" expanded="false" />
+            <element signature="e#2272#22659#1" expanded="false" />
+            <element signature="e#3448#5329#0" expanded="false" />
+            <element signature="e#3466#5321#1" expanded="false" />
+            <element signature="e#2272#22659#1" expanded="false" />
+            <element signature="e#5487#5552#0" expanded="false" />
+            <element signature="e#2272#22659#1" expanded="false" />
+            <element signature="e#5842#6486#0" expanded="false" />
+            <element signature="e#5875#6000#0" expanded="false" />
+            <element signature="e#6008#6478#0" expanded="false" />
+            <element signature="e#6039#6095#0" expanded="false" />
+            <element signature="e#6211#6243#0" expanded="false" />
+            <element signature="e#6264#6468#0" expanded="false" />
+            <element signature="e#6332#6456#0" expanded="false" />
+            <element signature="e#2272#22659#1" expanded="false" />
+            <element signature="e#6608#6824#0" expanded="false" />
+            <element signature="e#6736#6793#0" expanded="false" />
+            <element signature="e#2272#22659#1" expanded="false" />
+            <element signature="e#6936#7610#0" expanded="false" />
+            <element signature="e#7253#7458#0" expanded="false" />
+            <element signature="e#7300#7430#0" expanded="false" />
+            <element signature="e#2272#22659#1" expanded="false" />
+            <element signature="e#7826#8051#0" expanded="false" />
+            <element signature="e#7885#7924#0" expanded="false" />
+            <element signature="e#2272#22659#1" expanded="false" />
+            <element signature="e#8252#8618#0" expanded="false" />
+            <element signature="e#8281#8610#2" expanded="false" />
+            <element signature="e#8355#8600#0" expanded="false" />
+            <element signature="e#8509#8522#0" expanded="false" />
+            <element signature="e#8703#8737#0" expanded="false" />
+            <element signature="e#2272#22659#1" expanded="false" />
+            <element signature="e#8926#9001#0" expanded="false" />
+            <element signature="e#9007#9223#0" expanded="false" />
+            <element signature="e#9083#9215#0" expanded="false" />
+            <element signature="e#9177#9205#0" expanded="false" />
+            <element signature="e#9229#9341#0" expanded="false" />
+            <element signature="e#9249#9333#2" expanded="false" />
+            <element signature="e#9305#9323#0" expanded="false" />
+            <element signature="e#9347#9966#0" expanded="false" />
+            <element signature="e#9456#9958#0" expanded="false" />
+            <element signature="e#9554#9948#1" expanded="false" />
+            <element signature="e#9612#9916#0" expanded="false" />
+            <element signature="e#9697#9740#0" expanded="false" />
+            <element signature="e#9972#10635#0" expanded="false" />
+            <element signature="e#10048#10065#0" expanded="false" />
+            <element signature="e#10072#10627#0" expanded="false" />
+            <element signature="e#10207#10565#0" expanded="false" />
+            <element signature="e#10259#10533#0" expanded="false" />
+            <element signature="e#10310#10353#0" expanded="false" />
+            <element signature="e#2272#22659#1" expanded="false" />
+            <element signature="e#11655#11712#0" expanded="false" />
+            <element signature="e#11718#11806#0" expanded="false" />
+            <element signature="e#2272#22659#1" expanded="false" />
+            <element signature="e#11951#12392#0" expanded="false" />
+            <element signature="e#11995#12384#0" expanded="false" />
+            <element signature="e#12289#12374#0" expanded="false" />
+            <element signature="e#12398#12570#0" expanded="false" />
+            <element signature="e#12423#12562#2" expanded="false" />
+            <element signature="e#12576#12872#0" expanded="false" />
+            <element signature="e#12602#12864#2" expanded="false" />
+            <element signature="e#12915#13332#0" expanded="false" />
+            <element signature="e#13019#13324#0" expanded="false" />
+            <element signature="e#13094#13314#0" expanded="false" />
+            <element signature="e#13224#13302#0" expanded="false" />
+            <element signature="e#2272#22659#1" expanded="false" />
+            <element signature="e#13725#13797#0" expanded="false" />
+            <element signature="e#2272#22659#1" expanded="false" />
+            <element signature="e#14086#14315#0" expanded="false" />
+            <element signature="e#14116#14307#2" expanded="false" />
+            <element signature="e#14321#15009#0" expanded="false" />
+            <element signature="e#14362#15001#2" expanded="false" />
+            <element signature="e#14423#14991#1" expanded="false" />
+            <element signature="e#15015#15455#0" expanded="false" />
+            <element signature="e#15042#15447#2" expanded="false" />
+            <element signature="e#15096#15192#0" expanded="false" />
+            <element signature="e#15202#15437#0" expanded="false" />
+            <element signature="e#15461#15632#0" expanded="false" />
+            <element signature="e#15499#15624#2" expanded="false" />
+            <element signature="e#2272#22659#1" expanded="false" />
+            <element signature="e#16100#17103#0" expanded="false" />
+            <element signature="e#16225#17019#0" expanded="false" />
+            <element signature="e#16270#17009#1" expanded="false" />
+            <element signature="e#16465#16564#0" expanded="false" />
+            <element signature="e#17044#17095#0" expanded="false" />
+            <element signature="e#2272#22659#1" expanded="false" />
+            <element signature="e#17370#17714#0" expanded="false" />
+            <element signature="e#17409#17605#0" expanded="false" />
+            <element signature="e#2272#22659#1" expanded="false" />
+            <element signature="e#17998#18480#0" expanded="false" />
+            <element signature="e#18035#18472#2" expanded="false" />
+            <element signature="e#2272#22659#1" expanded="false" />
+            <element signature="e#18744#19084#0" expanded="false" />
+            <element signature="e#2272#22659#1" expanded="false" />
+            <element signature="e#19191#19327#0" expanded="false" />
+            <element signature="e#2272#22659#1" expanded="false" />
+            <element signature="e#19470#19573#0" expanded="false" />
+            <element signature="e#2272#22659#1" expanded="false" />
+            <element signature="e#19769#20369#0" expanded="false" />
+            <element signature="e#19800#20361#2" expanded="false" />
+            <element signature="e#19909#20119#0" expanded="false" />
+            <element signature="e#20171#20351#0" expanded="false" />
+            <element signature="e#2272#22659#1" expanded="false" />
+            <element signature="e#20537#20758#0" expanded="false" />
+            <element signature="e#20587#20750#0" expanded="false" />
+            <element signature="e#20615#20740#1" expanded="false" />
+            <element signature="e#20764#21087#0" expanded="false" />
+            <element signature="e#2272#22659#1" expanded="false" />
+            <element signature="e#21300#21720#0" expanded="false" />
+            <element signature="e#21370#21593#0" expanded="false" />
+            <element signature="e#21504#21583#0" expanded="false" />
+            <element signature="e#21634#21712#0" expanded="false" />
+            <element signature="e#21812#21979#0" expanded="false" />
+            <element signature="e#21839#21971#2" expanded="false" />
+            <element signature="e#21918#21961#0" expanded="false" />
+            <element signature="e#21985#22207#0" expanded="false" />
+            <element signature="e#22025#22199#2" expanded="false" />
+            <element signature="e#22133#22189#0" expanded="false" />
+            <element signature="e#22213#22487#0" expanded="false" />
+            <element signature="e#22493#22659#0" expanded="false" />
+            <element signature="e#22530#22651#2" expanded="false" />
+            <element signature="e#351#39771#1" expanded="false" />
+            <element signature="e#23156#39771#0" expanded="false" />
+            <element signature="e#23220#39765#1" expanded="false" />
+            <element signature="e#23220#39765#1" expanded="false" />
+            <element signature="e#23220#39765#1" expanded="false" />
+            <element signature="e#23220#39765#1" expanded="false" />
+            <element signature="e#23220#39765#1" expanded="false" />
+            <element signature="e#23220#39765#1" expanded="false" />
+            <element signature="e#24988#25143#0" expanded="false" />
+            <element signature="e#25188#25366#0" expanded="false" />
+            <element signature="e#23220#39765#1" expanded="false" />
+            <element signature="e#25603#25778#0" expanded="false" />
+            <element signature="e#25828#26026#0" expanded="false" />
+            <element signature="e#23220#39765#1" expanded="false" />
+            <element signature="e#23220#39765#1" expanded="false" />
+            <element signature="e#23220#39765#1" expanded="false" />
+            <element signature="e#23220#39765#1" expanded="false" />
+            <element signature="e#23220#39765#1" expanded="false" />
+            <element signature="e#23220#39765#1" expanded="false" />
+            <element signature="e#27535#27631#0" expanded="false" />
+            <element signature="e#27607#27623#0" expanded="false" />
+            <element signature="e#23220#39765#1" expanded="false" />
+            <element signature="e#23220#39765#1" expanded="false" />
+            <element signature="e#23220#39765#1" expanded="false" />
+            <element signature="e#23220#39765#1" expanded="false" />
+            <element signature="e#23220#39765#1" expanded="false" />
+            <element signature="e#29289#29340#0" expanded="false" />
+            <element signature="e#23220#39765#1" expanded="false" />
+            <element signature="e#23220#39765#1" expanded="false" />
+            <element signature="e#23220#39765#1" expanded="false" />
+            <element signature="e#30686#30776#0" expanded="false" />
+            <element signature="e#30808#31098#0" expanded="false" />
+            <element signature="e#23220#39765#1" expanded="false" />
+            <element signature="e#23220#39765#1" expanded="false" />
+            <element signature="e#31518#33018#0" expanded="false" />
+            <element signature="e#32849#32956#0" expanded="false" />
+            <element signature="e#33083#33775#0" expanded="false" />
+            <element signature="e#33256#33626#0" expanded="false" />
+            <element signature="e#33404#33626#0" expanded="false" />
+            <element signature="e#23220#39765#1" expanded="false" />
+            <element signature="e#34072#34267#0" expanded="false" />
+            <element signature="e#23220#39765#1" expanded="false" />
+            <element signature="e#34444#34569#0" expanded="false" />
+            <element signature="e#23220#39765#1" expanded="false" />
+            <element signature="e#34737#34824#0" expanded="false" />
+            <element signature="e#23220#39765#1" expanded="false" />
+            <element signature="e#34945#34986#0" expanded="false" />
+            <element signature="e#23220#39765#1" expanded="false" />
+            <element signature="e#35183#35318#0" expanded="false" />
+            <element signature="e#35391#35464#0" expanded="false" />
+            <element signature="e#23220#39765#1" expanded="false" />
+            <element signature="e#35647#35816#0" expanded="false" />
+            <element signature="e#35696#35808#0" expanded="false" />
+            <element signature="e#35822#35924#0" expanded="false" />
+            <element signature="e#35930#36102#0" expanded="false" />
+            <element signature="e#36108#36600#0" expanded="false" />
+            <element signature="e#36382#36495#0" expanded="false" />
+            <element signature="e#36513#36554#0" expanded="false" />
+            <element signature="e#36562#36592#0" expanded="false" />
+            <element signature="e#36620#36749#0" expanded="false" />
+            <element signature="e#36757#36884#0" expanded="false" />
+            <element signature="e#36892#37597#0" expanded="false" />
+            <element signature="e#37476#37507#0" expanded="false" />
+            <element signature="e#37515#37545#0" expanded="false" />
+            <element signature="e#37672#37724#0" expanded="false" />
+            <element signature="e#37732#37955#0" expanded="false" />
+            <element signature="e#37876#37907#0" expanded="false" />
+            <element signature="e#37915#37945#0" expanded="false" />
+            <element signature="e#37963#38051#0" expanded="false" />
+            <element signature="e#38059#38143#0" expanded="false" />
+            <element signature="e#38151#38255#0" expanded="false" />
+            <element signature="e#38263#38362#0" expanded="false" />
+            <element signature="e#38370#38446#0" expanded="false" />
+            <element signature="e#38454#38608#0" expanded="false" />
+            <element signature="e#38616#38669#0" expanded="false" />
+            <element signature="e#38677#38731#0" expanded="false" />
+            <element signature="e#38739#38787#0" expanded="false" />
+            <element signature="e#38795#38841#0" expanded="false" />
+            <element signature="e#38849#38890#0" expanded="false" />
+            <element signature="e#38898#38972#0" expanded="false" />
+            <element signature="e#38980#39140#0" expanded="false" />
+            <element signature="e#39148#39206#0" expanded="false" />
+            <element signature="e#39214#39399#0" expanded="false" />
+            <element signature="e#39246#39389#2" expanded="false" />
+            <element signature="e#39407#39444#0" expanded="false" />
+            <element signature="e#39452#39765#0" expanded="false" />
+            <element signature="e#39547#39741#0" expanded="false" />
+            <element signature="e#0#40556#0" expanded="false" />
+            <element signature="e#40018#40556#0" expanded="false" />
+            <element signature="e#40065#40220#0" expanded="false" />
+            <element signature="e#40111#40214#0" expanded="false" />
+            <element signature="e#40224#40301#0" expanded="false" />
+            <element signature="e#40305#40440#0" expanded="false" />
+            <element signature="e#40341#40434#2" expanded="false" />
+            <element signature="e#40456#40552#0" expanded="false" />
+            <element signature="e#40491#40525#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/companies/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="37" selection-start="131" selection-end="131" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="187">
@@ -998,33 +1419,179 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/companies/_form.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/companies/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="37" selection-start="228" selection-end="228" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="340">
+        <state line="29" column="43" selection-start="489" selection-end="489" vertical-scroll-proportion="-18.961538" vertical-offset="0" max-vertical-offset="595">
+          <folding>
+            <marker date="1426781700345" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1426781700345" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1426781700345" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1426781700345" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1426781700345" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/companies/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="31" selection-start="257" selection-end="257" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="48" selection-start="2026" selection-end="2026" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="833">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/products.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="134" selection-start="948" selection-end="948" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/development.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3281" column="85" selection-start="185931" selection-end="185931" vertical-scroll-proportion="0.0" vertical-offset="62224" max-vertical-offset="63937">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/dbaction.rxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="410">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/factories/data.rxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="12" selection-start="69" selection-end="69" vertical-scroll-proportion="-0.92727274" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/factories/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="11" selection-start="611" selection-end="611" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/factories/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="30" selection-start="435" selection-end="435" vertical-scroll-proportion="-18.961538" vertical-offset="0" max-vertical-offset="612">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/companies_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="5" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530">
+        <state line="77" column="5" selection-start="1942" selection-end="1942" vertical-scroll-proportion="0.0" vertical-offset="1581" max-vertical-offset="2244">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/companies/show.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/companies/dbaction.rxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="30" selection-start="425" selection-end="425" vertical-scroll-proportion="-10.192307" vertical-offset="211" max-vertical-offset="595">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="410">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/factories/dbaction.rxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="410">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/products/dbaction.rxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="410">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1122">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/factories_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="265" selection-end="265" vertical-scroll-proportion="-2.7818182" vertical-offset="0" max-vertical-offset="1802">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.17/lib/action_controller/base.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="361" column="4" selection-start="16708" selection-end="16708" vertical-scroll-proportion="0.0" vertical-offset="6005" max-vertical-offset="24327">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/factories/view.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="32" selection-start="351" selection-end="351" vertical-scroll-proportion="-3.5961537" vertical-offset="0" max-vertical-offset="544">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/products_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="16" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1938">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/products/data.rxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="3" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/companies.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="463" selection-end="463" vertical-scroll-proportion="0.7526042" vertical-offset="0" max-vertical-offset="391">
-          <folding>
-            <element signature="n#style#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="9" column="0" selection-start="375" selection-end="950" vertical-scroll-proportion="-4.8076925" vertical-offset="28" max-vertical-offset="527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/factories.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="134" selection-start="950" selection-end="950" vertical-scroll-proportion="-5.4615383" vertical-offset="79" max-vertical-offset="476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/companies/view.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="424" selection-end="424" vertical-scroll-proportion="-7.1923075" vertical-offset="51" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/products/view.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="482" selection-end="482" vertical-scroll-proportion="-5.230769" vertical-offset="153" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/companies/data.rxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="3" selection-start="363" selection-end="363" vertical-scroll-proportion="0.5804878" vertical-offset="0" max-vertical-offset="410">
+          <folding />
         </state>
       </provider>
     </entry>

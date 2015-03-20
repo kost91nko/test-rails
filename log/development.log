@@ -2149,3 +2149,2526 @@ Rendering template within layouts/companies
 Rendering companies/index
   [4;36;1mCompany Columns (7.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
 Completed in 46ms (View: 35, DB: 7) | 200 OK [http://localhost/companies]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#show (for 127.0.0.1 at 2015-03-19 19:57:08) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mCompany Columns (8.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+  [4;36;1mCompany Load (1.0ms)[0m   [0;1mSELECT * FROM `companies` WHERE (`companies`.`id` = 1) [0m
+Rendering template within layouts/companies
+Rendering companies/show
+  [4;35;1mFactory Load (1.0ms)[0m   [0mSELECT * FROM `factories` WHERE (`factories`.company_id = 1) [0m
+  [4;36;1mFactory Columns (6.0ms)[0m   [0;1mSHOW FIELDS FROM `factories`[0m
+Completed in 27ms (View: 7, DB: 16) | 200 OK [http://localhost/companies/1]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#index (for 127.0.0.1 at 2015-03-19 19:57:10) [GET]
+  Parameters: {"company_id"=>"1"}
+  [4;35;1mCompany Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` WHERE (`companies`.`id` = 1) [0m
+Rendering template within layouts/factories
+Rendering factories/index
+  [4;35;1mFactory Load (0.0ms)[0m   [0mSELECT * FROM `factories` WHERE (`factories`.company_id = 1) [0m
+  [4;36;1mFactory Columns (5.0ms)[0m   [0;1mSHOW FIELDS FROM `factories`[0m
+Completed in 28ms (View: 8, DB: 13) | 200 OK [http://localhost/companies/1/factories]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2015-03-20 11:20:25) [GET]
+Rendering home/index
+Completed in 13ms (View: 12, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#index (for 127.0.0.1 at 2015-03-20 11:20:47) [GET]
+  [4;36;1mCompany Load (43.0ms)[0m   [0;1mSELECT * FROM `companies` [0m
+Rendering template within layouts/companies
+Rendering companies/index
+  [4;35;1mCompany Columns (8.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+Completed in 3605ms (View: 3497, DB: 52) | 200 OK [http://localhost/companies]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#show (for 127.0.0.1 at 2015-03-20 11:20:54) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mCompany Columns (7.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 1) [0m
+Rendering template within layouts/companies
+Rendering companies/show
+  [4;36;1mFactory Load (30.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.company_id = 1) [0m
+  [4;35;1mFactory Columns (6.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+Completed in 99ms (View: 51, DB: 43) | 200 OK [http://localhost/companies/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#index (for 127.0.0.1 at 2015-03-20 11:20:59) [GET]
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` [0m
+Rendering template within layouts/companies
+Rendering companies/index
+  [4;35;1mCompany Columns (8.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+Completed in 19ms (View: 7, DB: 8) | 200 OK [http://localhost/companies]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#show (for 127.0.0.1 at 2015-03-20 11:21:01) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mCompany Columns (7.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 2) [0m
+Rendering template within layouts/companies
+Rendering companies/show
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.company_id = 2) [0m
+  [4;35;1mFactory Columns (6.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+Completed in 25ms (View: 7, DB: 14) | 200 OK [http://localhost/companies/2]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#index (for 127.0.0.1 at 2015-03-20 11:21:03) [GET]
+  Parameters: {"company_id"=>"2"}
+  [4;36;1mCompany Columns (7.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 2) [0m
+Rendering template within layouts/factories
+Rendering factories/index
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.company_id = 2) [0m
+  [4;35;1mFactory Columns (6.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+Completed in 76ms (View: 30, DB: 13) | 200 OK [http://localhost/companies/2/factories]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#show (for 127.0.0.1 at 2015-03-20 11:21:06) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mCompany Columns (7.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 2) [0m
+Rendering template within layouts/companies
+Rendering companies/show
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.company_id = 2) [0m
+  [4;35;1mFactory Columns (6.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+Completed in 25ms (View: 7, DB: 14) | 200 OK [http://localhost/companies/2]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#index (for 127.0.0.1 at 2015-03-20 11:21:09) [GET]
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` [0m
+Rendering template within layouts/companies
+Rendering companies/index
+  [4;35;1mCompany Columns (8.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+Completed in 19ms (View: 6, DB: 9) | 200 OK [http://localhost/companies]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#show (for 127.0.0.1 at 2015-03-20 11:21:27) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mCompany Columns (7.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 3) [0m
+Rendering template within layouts/companies
+Rendering companies/show
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.company_id = 3) [0m
+Completed in 18ms (View: 6, DB: 7) | 200 OK [http://localhost/companies/3]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#index (for 127.0.0.1 at 2015-03-20 11:21:29) [GET]
+  Parameters: {"company_id"=>"3"}
+  [4;35;1mCompany Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+  [4;36;1mCompany Load (1.0ms)[0m   [0;1mSELECT * FROM `companies` WHERE (`companies`.`id` = 3) [0m
+Rendering template within layouts/factories
+Rendering factories/index
+  [4;35;1mFactory Load (0.0ms)[0m   [0mSELECT * FROM `factories` WHERE (`factories`.company_id = 3) [0m
+Completed in 17ms (View: 2, DB: 9) | 200 OK [http://localhost/companies/3/factories]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#new (for 127.0.0.1 at 2015-03-20 11:21:31) [GET]
+  Parameters: {"company_id"=>"3"}
+  [4;36;1mCompany Columns (8.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 3) [0m
+  [4;36;1mFactory Columns (6.0ms)[0m   [0;1mSHOW FIELDS FROM `factories`[0m
+Rendering template within layouts/factories
+Rendering factories/new
+Rendered factories/_form (7.0ms)
+Completed in 37ms (View: 15, DB: 14) | 200 OK [http://localhost/companies/3/factories/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#create (for 127.0.0.1 at 2015-03-20 11:21:37) [POST]
+  Parameters: {"company_id"=>"3", "factory"=>{"description"=>"222222", "name"=>"111111"}, "commit"=>"Save", "authenticity_token"=>"71jVjGlvvM3w6wOULcn8mSHH0CVnoOLfhP6uNJ9O6oo="}
+  [4;35;1mCompany Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` WHERE (`companies`.`id` = 3) [0m
+  [4;35;1mFactory Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mFactory Create (27.0ms)[0m   [0mINSERT INTO `factories` (`company_id`, `description`, `updated_at`, `name`, `created_at`) VALUES(3, '222222', '2015-03-20 08:21:37', '111111', '2015-03-20 08:21:37')[0m
+  [4;36;1mSQL (47.0ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/companies/3/factories/4
+Completed in 98ms (DB: 88) | 302 Found [http://localhost/companies/3/factories]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#show (for 127.0.0.1 at 2015-03-20 11:21:38) [GET]
+  Parameters: {"company_id"=>"3", "id"=>"4"}
+  [4;35;1mCompany Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` WHERE (`companies`.`id` = 3) [0m
+  [4;35;1mFactory Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.`id` = 4 AND (`factories`.company_id = 3)) [0m
+Rendering template within layouts/factories
+Rendering factories/show
+  [4;35;1mProduct Load (14.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.factory_id = 4) [0m
+Completed in 75ms (View: 13, DB: 28) | 200 OK [http://localhost/companies/3/factories/4]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#index (for 127.0.0.1 at 2015-03-20 11:21:47) [GET]
+  Parameters: {"company_id"=>"3"}
+  [4;36;1mCompany Columns (8.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 3) [0m
+Rendering template within layouts/factories
+Rendering factories/index
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.company_id = 3) [0m
+  [4;35;1mFactory Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+Completed in 37ms (View: 7, DB: 24) | 200 OK [http://localhost/companies/3/factories]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#edit (for 127.0.0.1 at 2015-03-20 11:21:48) [GET]
+  Parameters: {"company_id"=>"3", "id"=>"4"}
+  [4;36;1mCompany Columns (7.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 3) [0m
+  [4;36;1mFactory Columns (6.0ms)[0m   [0;1mSHOW FIELDS FROM `factories`[0m
+  [4;35;1mFactory Load (0.0ms)[0m   [0mSELECT * FROM `factories` WHERE (`factories`.`id` = 4 AND (`factories`.company_id = 3)) [0m
+Rendering template within layouts/factories
+Rendering factories/edit
+Rendered factories/_form (5.0ms)
+Completed in 33ms (View: 11, DB: 13) | 200 OK [http://localhost/companies/3/factories/4/edit]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#index (for 127.0.0.1 at 2015-03-20 11:21:50) [GET]
+  Parameters: {"company_id"=>"3"}
+  [4;36;1mCompany Columns (7.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 3) [0m
+Rendering template within layouts/factories
+Rendering factories/index
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.company_id = 3) [0m
+  [4;35;1mFactory Columns (21.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+Completed in 41ms (View: 5, DB: 28) | 200 OK [http://localhost/companies/3/factories]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#show (for 127.0.0.1 at 2015-03-20 11:21:52) [GET]
+  Parameters: {"company_id"=>"3", "id"=>"4"}
+  [4;36;1mCompany Columns (8.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 3) [0m
+  [4;36;1mFactory Columns (6.0ms)[0m   [0;1mSHOW FIELDS FROM `factories`[0m
+  [4;35;1mFactory Load (1.0ms)[0m   [0mSELECT * FROM `factories` WHERE (`factories`.`id` = 4 AND (`factories`.company_id = 3)) [0m
+Rendering template within layouts/factories
+Rendering factories/show
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.factory_id = 4) [0m
+Completed in 27ms (View: 5, DB: 16) | 200 OK [http://localhost/companies/3/factories/4]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2015-03-20 11:21:53) [GET]
+  Parameters: {"factory_id"=>"4"}
+  [4;35;1mFactory Columns (24.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.`id` = 4) [0m
+  [4;35;1mCompany Columns (6.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` WHERE (`companies`.`id` = 3) [0m
+Rendering template within layouts/products
+Rendering products/index
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.factory_id = 4) [0m
+Completed in 59ms (View: 17, DB: 30) | 200 OK [http://localhost/factories/4/products]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#new (for 127.0.0.1 at 2015-03-20 11:21:55) [GET]
+  Parameters: {"factory_id"=>"4"}
+  [4;36;1mFactory Columns (8.0ms)[0m   [0;1mSHOW FIELDS FROM `factories`[0m
+  [4;35;1mFactory Load (1.0ms)[0m   [0mSELECT * FROM `factories` WHERE (`factories`.`id` = 4) [0m
+  [4;36;1mProduct Columns (9.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+Rendering template within layouts/products
+Rendering products/new
+Rendered products/_form (7.0ms)
+Completed in 64ms (View: 39, DB: 18) | 200 OK [http://localhost/factories/4/products/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#create (for 127.0.0.1 at 2015-03-20 11:22:01) [POST]
+  Parameters: {"product"=>{"description"=>"sldfjkasdjf;as", "name"=>"sdfjas;dfas"}, "factory_id"=>"4", "commit"=>"Save", "authenticity_token"=>"71jVjGlvvM3w6wOULcn8mSHH0CVnoOLfhP6uNJ9O6oo="}
+  [4;35;1mFactory Columns (8.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.`id` = 4) [0m
+  [4;35;1mProduct Columns (10.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Create (0.0ms)[0m   [0mINSERT INTO `products` (`description`, `updated_at`, `name`, `factory_id`, `created_at`) VALUES('sldfjkasdjf;as', '2015-03-20 08:22:01', 'sdfjas;dfas', 4, '2015-03-20 08:22:01')[0m
+  [4;36;1mSQL (51.0ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/factories/4/products/5
+Completed in 78ms (DB: 69) | 302 Found [http://localhost/factories/4/products]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2015-03-20 11:22:01) [GET]
+  Parameters: {"id"=>"5", "factory_id"=>"4"}
+  [4;35;1mFactory Columns (5.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.`id` = 4) [0m
+  [4;35;1mProduct Columns (9.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.`id` = 5 AND (`products`.factory_id = 4)) [0m
+Rendering template within layouts/products
+Rendering products/show
+Completed in 30ms (View: 8, DB: 14) | 200 OK [http://localhost/factories/4/products/5]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2015-03-20 11:22:03) [GET]
+  Parameters: {"factory_id"=>"4"}
+  [4;35;1mFactory Columns (8.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.`id` = 4) [0m
+  [4;35;1mCompany Columns (6.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` WHERE (`companies`.`id` = 3) [0m
+Rendering template within layouts/products
+Rendering products/index
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.factory_id = 4) [0m
+  [4;36;1mProduct Columns (8.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+Completed in 39ms (View: 6, DB: 22) | 200 OK [http://localhost/factories/4/products]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#show (for 127.0.0.1 at 2015-03-20 11:22:06) [GET]
+  Parameters: {"company_id"=>"3", "id"=>"4"}
+  [4;35;1mCompany Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` WHERE (`companies`.`id` = 3) [0m
+  [4;35;1mFactory Columns (6.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.`id` = 4 AND (`factories`.company_id = 3)) [0m
+Rendering template within layouts/factories
+Rendering factories/show
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.factory_id = 4) [0m
+  [4;36;1mProduct Columns (9.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+Completed in 37ms (View: 7, DB: 22) | 200 OK [http://localhost/companies/3/factories/4]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#index (for 127.0.0.1 at 2015-03-20 11:22:11) [GET]
+  Parameters: {"company_id"=>"3"}
+  [4;35;1mCompany Columns (8.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` WHERE (`companies`.`id` = 3) [0m
+Rendering template within layouts/factories
+Rendering factories/index
+  [4;35;1mFactory Load (1.0ms)[0m   [0mSELECT * FROM `factories` WHERE (`factories`.company_id = 3) [0m
+  [4;36;1mFactory Columns (6.0ms)[0m   [0;1mSHOW FIELDS FROM `factories`[0m
+Completed in 26ms (View: 4, DB: 15) | 200 OK [http://localhost/companies/3/factories]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#show (for 127.0.0.1 at 2015-03-20 11:22:13) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mCompany Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+  [4;36;1mCompany Load (1.0ms)[0m   [0;1mSELECT * FROM `companies` WHERE (`companies`.`id` = 3) [0m
+Rendering template within layouts/companies
+Rendering companies/show
+  [4;35;1mFactory Load (0.0ms)[0m   [0mSELECT * FROM `factories` WHERE (`factories`.company_id = 3) [0m
+  [4;36;1mFactory Columns (6.0ms)[0m   [0;1mSHOW FIELDS FROM `factories`[0m
+Completed in 25ms (View: 7, DB: 14) | 200 OK [http://localhost/companies/3]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#index (for 127.0.0.1 at 2015-03-20 11:22:22) [GET]
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` [0m
+Rendering template within layouts/companies
+Rendering companies/index
+  [4;36;1mCompany Columns (8.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+Completed in 53ms (View: 31, DB: 8) | 200 OK [http://localhost/companies]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2015-03-20 11:22:40) [GET]
+  [4;35;1mCompany Columns (8.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+Rendering template within layouts/companies
+Rendering companies/new
+Rendered companies/_form (6.0ms)
+Completed in 26ms (View: 14, DB: 8) | 200 OK [http://localhost/companies/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#create (for 127.0.0.1 at 2015-03-20 11:23:11) [POST]
+  Parameters: {"company"=>{"description"=>"Parampampam", "name"=>"Parampampam"}, "commit"=>"Save", "authenticity_token"=>"71jVjGlvvM3w6wOULcn8mSHH0CVnoOLfhP6uNJ9O6oo="}
+  [4;36;1mCompany Columns (8.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mCompany Create (0.0ms)[0m   [0;1mINSERT INTO `companies` (`description`, `updated_at`, `name`, `created_at`) VALUES('Parampampam', '2015-03-20 08:23:11', 'Parampampam', '2015-03-20 08:23:11')[0m
+  [4;35;1mSQL (25.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/companies/4
+Completed in 39ms (DB: 33) | 302 Found [http://localhost/companies]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#show (for 127.0.0.1 at 2015-03-20 11:23:11) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mCompany Columns (5.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 4) [0m
+Rendering template within layouts/companies
+Rendering companies/show
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.company_id = 4) [0m
+Completed in 16ms (View: 6, DB: 5) | 200 OK [http://localhost/companies/4]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#index (for 127.0.0.1 at 2015-03-20 11:23:20) [GET]
+  Parameters: {"company_id"=>"4"}
+  [4;35;1mCompany Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` WHERE (`companies`.`id` = 4) [0m
+Rendering template within layouts/factories
+Rendering factories/index
+  [4;35;1mFactory Load (0.0ms)[0m   [0mSELECT * FROM `factories` WHERE (`factories`.company_id = 4) [0m
+Completed in 17ms (View: 3, DB: 7) | 200 OK [http://localhost/companies/4/factories]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#show (for 127.0.0.1 at 2015-03-20 11:23:24) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mCompany Columns (7.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 4) [0m
+Rendering template within layouts/companies
+Rendering companies/show
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.company_id = 4) [0m
+Completed in 18ms (View: 6, DB: 7) | 200 OK [http://localhost/companies/4]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#index (for 127.0.0.1 at 2015-03-20 11:23:25) [GET]
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` [0m
+Rendering template within layouts/companies
+Rendering companies/index
+  [4;36;1mCompany Columns (8.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+Completed in 20ms (View: 8, DB: 8) | 200 OK [http://localhost/companies]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#index (for 127.0.0.1 at 2015-03-20 11:47:37) [GET]
+  [4;35;1mCompany Load (1.0ms)[0m   [0mSELECT * FROM `companies` [0m
+Rendering template within layouts/companies
+Rendering companies/index
+Completed in 11ms (View: 6, DB: 2) | 200 OK [http://localhost/companies]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2015-03-20 11:47:37) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/codebase/dhtmlxgridcell.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#index (for 127.0.0.1 at 2015-03-20 11:55:29) [GET]
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` [0m
+Rendering template within layouts/companies
+Rendering companies/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/companies]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2015-03-20 11:55:30) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/codebase/dhtmlxgridcell.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#show (for 127.0.0.1 at 2015-03-20 11:55:30) [GET]
+  Parameters: {"dhxr1426841730473"=>"1", "id"=>"data"}
+  [4;35;1mCompany Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` WHERE (`companies`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Company with ID=data):
+  app/controllers/companies_controller.rb:87:in `find_company'
+
+Rendered rescues/_trace (23.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#show (for 127.0.0.1 at 2015-03-20 11:55:45) [GET]
+  Parameters: {"dhxr1426841730473"=>"1", "id"=>"data"}
+  [4;35;1mCompany Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` WHERE (`companies`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Company with ID=data):
+  app/controllers/companies_controller.rb:87:in `find_company'
+
+Rendered rescues/_trace (47.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#show (for 127.0.0.1 at 2015-03-20 12:01:05) [GET]
+  Parameters: {"id"=>"data"}
+  [4;35;1mCompany Columns (9.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` WHERE (`companies`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Company with ID=data):
+  app/controllers/companies_controller.rb:87:in `find_company'
+
+Rendered rescues/_trace (23.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#show (for 127.0.0.1 at 2015-03-20 12:01:15) [GET]
+  Parameters: {"id"=>"data", "dhxr1426842075404"=>"1"}
+  [4;35;1mCompany Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` WHERE (`companies`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Company with ID=data):
+  app/controllers/companies_controller.rb:87:in `find_company'
+
+Rendered rescues/_trace (23.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#index (for 127.0.0.1 at 2015-03-20 12:02:32) [GET]
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` [0m
+Rendering template within layouts/companies
+Rendering companies/index
+Completed in 6ms (View: 1, DB: 1) | 200 OK [http://localhost/companies]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2015-03-20 12:02:33) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/codebase/dhtmlxgridcell.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#data (for 127.0.0.1 at 2015-03-20 12:02:33) [GET]
+  Parameters: {"dhxr1426842153662"=>"1"}
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` [0m
+Rendering companies/data
+  [4;35;1mCompany Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+Completed in 16ms (View: 5, DB: 7) | 200 OK [http://localhost/companies/data?dhxr1426842153662=1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#index (for 127.0.0.1 at 2015-03-20 12:20:19) [GET]
+  [4;36;1mCompany Load (1.0ms)[0m   [0;1mSELECT * FROM `companies` [0m
+Rendering template within layouts/companies
+Rendering companies/index
+  [4;35;1mCompany Columns (17.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+
+ActionView::TemplateError (undefined method `company_path' for #<ActionView::Base:0x6ebfb00>) on line #13 of app/views/companies/index.html.erb:
+10:       <tr>
+11:         <td><%=h company.name %></td>
+12:         <td><%=h company.description %></td>
+13:         <td><%= link_to 'Show', company %></td>
+14:         <td><%= link_to 'Edit', edit_company_path(company) %></td>
+15:         <td><%= link_to 'Destroy', company, :confirm => 'Are you sure?', :method => :delete %></td>
+16:       </tr>
+
+    app/views/companies/index.html.erb:13
+    app/views/companies/index.html.erb:9:in `each'
+    app/views/companies/index.html.erb:9
+    app/controllers/companies_controller.rb:9:in `index'
+
+Rendered rescues/_trace (57.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#view (for 127.0.0.1 at 2015-03-20 12:21:16) [GET]
+Rendering template within layouts/companies
+Rendering companies/view
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/companies/view]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2015-03-20 12:21:16) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/codebase/dhtmlxgridcell.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#data (for 127.0.0.1 at 2015-03-20 12:21:16) [GET]
+  Parameters: {"dhxr1426843276519"=>"1"}
+  [4;36;1mCompany Load (1.0ms)[0m   [0;1mSELECT * FROM `companies` [0m
+Rendering companies/data
+  [4;35;1mCompany Columns (10.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+Completed in 16ms (View: 1, DB: 11) | 200 OK [http://localhost/companies/data?dhxr1426843276519=1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#view (for 127.0.0.1 at 2015-03-20 12:23:28) [GET]
+Rendering template within layouts/companies
+Rendering companies/view
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/companies/view]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2015-03-20 12:23:28) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/codebase/dhtmlxgridcell.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#data (for 127.0.0.1 at 2015-03-20 12:23:29) [GET]
+  Parameters: {"dhxr1426843408690"=>"1"}
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` [0m
+Rendering companies/data
+  [4;35;1mCompany Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+Completed in 14ms (View: 3, DB: 7) | 200 OK [http://localhost/companies/data?dhxr1426843408690=1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#view (for 127.0.0.1 at 2015-03-20 12:26:59) [GET]
+Rendering template within layouts/companies
+Rendering companies/view
+Completed in 5ms (View: 4, DB: 1) | 200 OK [http://localhost/companies/view]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2015-03-20 12:26:59) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/codebase/dhtmlxgridcell.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#data (for 127.0.0.1 at 2015-03-20 12:27:00) [GET]
+  Parameters: {"dhxr1426843620080"=>"1"}
+  [4;36;1mCompany Load (1.0ms)[0m   [0;1mSELECT * FROM `companies` [0m
+Rendering companies/data
+  [4;35;1mCompany Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+Completed in 14ms (View: 2, DB: 8) | 200 OK [http://localhost/companies/data?dhxr1426843620080=1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#dbaction (for 127.0.0.1 at 2015-03-20 12:27:01) [POST]
+  Parameters: {"editing"=>"true", "ids"=>"1426843621896", "1426843621896_gr_id"=>"1426843621896", "1426843621896_c0"=>"new company", "1426843621896_c1"=>"", "1426843621896_!nativeeditor_status"=>"inserted"}
+Rendering companies/dbaction
+Completed in 12ms (View: 3, DB: 0) | 200 OK [http://localhost/companies/dbaction/?editing=true]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#view (for 127.0.0.1 at 2015-03-20 12:27:21) [GET]
+Rendering template within layouts/companies
+Rendering companies/view
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/companies/view]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2015-03-20 12:27:21) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/codebase/dhtmlxgridcell.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#data (for 127.0.0.1 at 2015-03-20 12:27:22) [GET]
+  Parameters: {"dhxr1426843642207"=>"1"}
+  [4;36;1mCompany Load (1.0ms)[0m   [0;1mSELECT * FROM `companies` [0m
+Rendering companies/data
+  [4;35;1mCompany Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+Completed in 6ms (View: 1, DB: 1) | 200 OK [http://localhost/companies/data?dhxr1426843642207=1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#dbaction (for 127.0.0.1 at 2015-03-20 12:27:34) [POST]
+  Parameters: {"editing"=>"true", "1426843653954_c0"=>"new company", "1426843653954_c1"=>"", "1426843653954_!nativeeditor_status"=>"inserted", "ids"=>"1426843653954", "1426843653954_gr_id"=>"1426843653954"}
+Rendering companies/dbaction
+Completed in 12ms (View: 2, DB: 0) | 200 OK [http://localhost/companies/dbaction/?editing=true]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#dbaction (for 127.0.0.1 at 2015-03-20 12:27:57) [POST]
+  Parameters: {"editing"=>"true", "ids"=>"1426843653955", "1426843653955_c0"=>"new company", "1426843653955_c1"=>"", "1426843653955_!nativeeditor_status"=>"", "1426843653955_gr_id"=>"1426843653955"}
+Rendering companies/dbaction
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/companies/dbaction/?editing=true]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#view (for 127.0.0.1 at 2015-03-20 12:27:59) [GET]
+Rendering template within layouts/companies
+Rendering companies/view
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/companies/view]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2015-03-20 12:28:00) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/codebase/dhtmlxgridcell.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#data (for 127.0.0.1 at 2015-03-20 12:28:00) [GET]
+  Parameters: {"dhxr1426843680518"=>"1"}
+  [4;36;1mCompany Load (1.0ms)[0m   [0;1mSELECT * FROM `companies` [0m
+Rendering companies/data
+  [4;35;1mCompany Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+Completed in 16ms (View: 4, DB: 8) | 200 OK [http://localhost/companies/data?dhxr1426843680518=1]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#view (for 127.0.0.1 at 2015-03-20 13:46:07) [GET]
+Rendering template within layouts/companies
+Rendering companies/view
+Completed in 5ms (View: 4, DB: 1) | 200 OK [http://localhost/companies/view]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2015-03-20 13:46:07) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/codebase/dhtmlxgridcell.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#data (for 127.0.0.1 at 2015-03-20 13:46:08) [GET]
+  Parameters: {"dhxr1426848367915"=>"1"}
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` [0m
+Rendering companies/data
+  [4;35;1mCompany Columns (8.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+Completed in 15ms (View: 2, DB: 8) | 200 OK [http://localhost/companies/data?dhxr1426848367915=1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#dbaction (for 127.0.0.1 at 2015-03-20 13:46:09) [POST]
+  Parameters: {"editing"=>"true", "ids"=>"1426848369581", "1426848369581_gr_id"=>"1426848369581", "1426848369581_c0"=>"new company", "1426848369581_c1"=>"", "1426848369581_!nativeeditor_status"=>"inserted"}
+Rendering companies/dbaction
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/companies/dbaction?editing=true]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#view (for 127.0.0.1 at 2015-03-20 13:46:20) [GET]
+Rendering template within layouts/companies
+Rendering companies/view
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/companies/view]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2015-03-20 13:46:20) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/codebase/dhtmlxgridcell.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#data (for 127.0.0.1 at 2015-03-20 13:46:21) [GET]
+  Parameters: {"dhxr1426848381232"=>"1"}
+  [4;36;1mCompany Load (1.0ms)[0m   [0;1mSELECT * FROM `companies` [0m
+Rendering companies/data
+  [4;35;1mCompany Columns (8.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+Completed in 16ms (View: 3, DB: 9) | 200 OK [http://localhost/companies/data?dhxr1426848381232=1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#view (for 127.0.0.1 at 2015-03-20 14:35:28) [GET]
+Rendering template within layouts/companies
+Rendering companies/view
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/companies/view]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2015-03-20 14:35:29) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/codebase/dhtmlxgridcell.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#data (for 127.0.0.1 at 2015-03-20 14:35:29) [GET]
+  Parameters: {"dhxr1426851329429"=>"1"}
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` [0m
+Rendering companies/data
+  [4;35;1mCompany Columns (8.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+Completed in 16ms (View: 3, DB: 8) | 200 OK [http://localhost/companies/data?dhxr1426851329429=1]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#view (for 127.0.0.1 at 2015-03-20 14:46:37) [GET]
+Rendering template within layouts/companies
+Rendering companies/view
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://localhost/companies/view]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2015-03-20 14:46:37) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/codebase/dhtmlxgridcell.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#data (for 127.0.0.1 at 2015-03-20 14:46:38) [GET]
+  Parameters: {"dhxr1426851998225"=>"1"}
+  [4;36;1mCompany Load (1.0ms)[0m   [0;1mSELECT * FROM `companies` [0m
+Rendering companies/data
+  [4;35;1mCompany Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+Completed in 15ms (View: 3, DB: 8) | 200 OK [http://localhost/companies/data?dhxr1426851998225=1]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#view (for 127.0.0.1 at 2015-03-20 14:48:24) [GET]
+Rendering template within layouts/companies
+Rendering companies/view
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://localhost/companies/view]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2015-03-20 14:48:25) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/codebase/dhtmlxgridcell.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#data (for 127.0.0.1 at 2015-03-20 14:48:25) [GET]
+  Parameters: {"dhxr1426852105312"=>"1"}
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` [0m
+Rendering companies/data
+  [4;35;1mCompany Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+Completed in 14ms (View: 3, DB: 7) | 200 OK [http://localhost/companies/data?dhxr1426852105312=1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#view (for 127.0.0.1 at 2015-03-20 14:59:25) [GET]
+Rendering template within layouts/companies
+Rendering companies/view
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/companies/view]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#data (for 127.0.0.1 at 2015-03-20 14:59:26) [GET]
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` [0m
+Rendering companies/data
+  [4;35;1mCompany Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+Completed in 24ms (View: 4, DB: 1) | 200 OK [http://localhost/companies/data]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#view (for 127.0.0.1 at 2015-03-20 15:00:16) [GET]
+Rendering template within layouts/companies
+Rendering companies/view
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/companies/view]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#data (for 127.0.0.1 at 2015-03-20 15:00:17) [GET]
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` [0m
+Rendering companies/data
+  [4;35;1mCompany Columns (8.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+Completed in 22ms (View: 3, DB: 8) | 200 OK [http://localhost/companies/data]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#view (for 127.0.0.1 at 2015-03-20 15:09:23) [GET]
+Rendering template within layouts/companies
+Rendering companies/view
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/companies/view]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#view (for 127.0.0.1 at 2015-03-20 15:10:03) [GET]
+Rendering template within layouts/companies
+Rendering companies/view
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/companies/view]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#view (for 127.0.0.1 at 2015-03-20 15:10:47) [GET]
+Rendering template within layouts/companies
+Rendering companies/view
+Completed in 4ms (View: 3, DB: 1) | 200 OK [http://localhost/companies/view]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#data (for 127.0.0.1 at 2015-03-20 15:10:47) [GET]
+  Parameters: {"dhxr1426853447765"=>"1"}
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` [0m
+Rendering companies/data
+  [4;35;1mCompany Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+Completed in 15ms (View: 3, DB: 7) | 200 OK [http://localhost/companies/data?dhxr1426853447765=1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#dbaction (for 127.0.0.1 at 2015-03-20 15:10:50) [POST]
+  Parameters: {"1426853450050_c0"=>"new company", "1426853450050_c1"=>"", "ids"=>"1426853450050", "editing"=>"true", "1426853450050_!nativeeditor_status"=>"inserted", "1426853450050_gr_id"=>"1426853450050"}
+Rendering companies/dbaction
+Completed in 3582ms (View: 10, DB: 0) | 200 OK [http://localhost/companies/dbaction?editing=true]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#view (for 127.0.0.1 at 2015-03-20 15:11:02) [GET]
+Rendering template within layouts/companies
+Rendering companies/view
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://localhost/companies/view]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#data (for 127.0.0.1 at 2015-03-20 15:11:02) [GET]
+  Parameters: {"dhxr1426853462524"=>"1"}
+  [4;36;1mCompany Load (1.0ms)[0m   [0;1mSELECT * FROM `companies` [0m
+Rendering companies/data
+  [4;35;1mCompany Columns (8.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+Completed in 15ms (View: 3, DB: 9) | 200 OK [http://localhost/companies/data?dhxr1426853462524=1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#view (for 127.0.0.1 at 2015-03-20 15:11:38) [GET]
+Rendering template within layouts/companies
+Rendering companies/view
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/companies/view]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#view (for 127.0.0.1 at 2015-03-20 15:19:51) [GET]
+Rendering template within layouts/companies
+Rendering companies/view
+Completed in 5ms (View: 4, DB: 1) | 200 OK [http://localhost/companies/view]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#data (for 127.0.0.1 at 2015-03-20 15:19:51) [GET]
+  Parameters: {"dhxr1426853991453"=>"1"}
+  [4;36;1mCompany Load (1.0ms)[0m   [0;1mSELECT * FROM `companies` [0m
+Rendering companies/data
+  [4;35;1mCompany Columns (8.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+Completed in 17ms (View: 5, DB: 9) | 200 OK [http://localhost/companies/data?dhxr1426853991453=1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#view (for 127.0.0.1 at 2015-03-20 15:20:39) [GET]
+Rendering template within layouts/companies
+Rendering companies/view
+Completed in 4ms (View: 3, DB: 1) | 200 OK [http://localhost/companies/view]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#data (for 127.0.0.1 at 2015-03-20 15:20:40) [GET]
+  Parameters: {"dhxr1426854040295"=>"1"}
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` [0m
+Rendering companies/data
+  [4;35;1mCompany Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+Completed in 15ms (View: 3, DB: 7) | 200 OK [http://localhost/companies/data?dhxr1426854040295=1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#dbaction (for 127.0.0.1 at 2015-03-20 15:20:41) [POST]
+  Parameters: {"1426854041435_c0"=>"new company", "1426854041435_c1"=>"", "1426854041435_gr_id"=>"1426854041435", "ids"=>"1426854041435", "editing"=>"true", "1426854041435_!nativeeditor_status"=>"inserted"}
+Rendering companies/dbaction
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/companies/dbaction/?editing=true]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#dbaction (for 127.0.0.1 at 2015-03-20 15:20:48) [POST]
+  Parameters: {"1426854041436_gr_id"=>"1426854041436", "ids"=>"1426854041436", "editing"=>"true", "1426854041436_c0"=>"new company", "1426854041436_c1"=>"", "1426854041436_!nativeeditor_status"=>""}
+Rendering companies/dbaction
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/companies/dbaction/?editing=true]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#index (for 127.0.0.1 at 2015-03-20 15:49:52) [GET]
+  [4;36;1mCompany Load (1.0ms)[0m   [0;1mSELECT * FROM `companies` [0m
+Rendering template within layouts/companies
+Rendering companies/index
+  [4;35;1mCompany Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+
+ActionView::TemplateError (undefined method `company_path' for #<ActionView::Base:0x713f2f8>) on line #13 of app/views/companies/index.html.erb:
+10:       <tr>
+11:         <td><%=h company.name %></td>
+12:         <td><%=h company.description %></td>
+13:         <td><%= link_to 'Show', company %></td>
+14:         <td><%= link_to 'Edit', edit_company_path(company) %></td>
+15:         <td><%= link_to 'Destroy', company, :confirm => 'Are you sure?', :method => :delete %></td>
+16:       </tr>
+
+    app/views/companies/index.html.erb:13
+    app/views/companies/index.html.erb:9:in `each'
+    app/views/companies/index.html.erb:9
+    app/controllers/companies_controller.rb:9:in `index'
+
+Rendered rescues/_trace (59.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#view (for 127.0.0.1 at 2015-03-20 15:53:51) [GET]
+Rendering template within layouts/companies
+Rendering companies/view
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/companies/view]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#data (for 127.0.0.1 at 2015-03-20 15:53:51) [GET]
+  Parameters: {"dhxr1426856031370"=>"1"}
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` [0m
+Rendering companies/data
+  [4;35;1mCompany Columns (8.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+Completed in 16ms (View: 3, DB: 9) | 200 OK [http://localhost/companies/data?dhxr1426856031370=1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#dbaction (for 127.0.0.1 at 2015-03-20 15:53:53) [POST]
+  Parameters: {"1426856033704_!nativeeditor_status"=>"inserted", "1426856033704_c0"=>"new company", "1426856033704_c1"=>"", "ids"=>"1426856033704", "editing"=>"true", "1426856033704_gr_id"=>"1426856033704"}
+Rendering companies/dbaction
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/companies/dbaction/?editing=true]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#data (for 127.0.0.1 at 2015-03-20 16:20:08) [GET]
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` [0m
+Rendering template within layouts/companies
+Rendering companies/data
+  [4;35;1mCompany Columns (8.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+Completed in 35ms (View: 10, DB: 8) | 200 OK [http://localhost/companies/data]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#view (for 127.0.0.1 at 2015-03-20 16:24:14) [GET]
+Rendering template within layouts/companies
+Rendering companies/view
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/companies/view]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#data (for 127.0.0.1 at 2015-03-20 16:24:14) [GET]
+  Parameters: {"dhxr1426857854406"=>"1"}
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` [0m
+Rendering companies/data
+  [4;35;1mCompany Columns (8.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+Completed in 17ms (View: 3, DB: 8) | 200 OK [http://localhost/companies/data?dhxr1426857854406=1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#dbaction (for 127.0.0.1 at 2015-03-20 16:24:16) [POST]
+  Parameters: {"1426857856524_c0"=>"new company", "1426857856524_c1"=>"", "editing"=>"true", "1426857856524_gr_id"=>"1426857856524", "1426857856524_!nativeeditor_status"=>"inserted", "ids"=>"1426857856524"}
+
+Errno::ENOENT (No such file or directory - C:/ruby_projects/test/app/views/companies/dbaction.rxml):
+  
+
+Rendered rescues/_trace (18.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#dbaction (for 127.0.0.1 at 2015-03-20 16:24:20) [POST]
+  Parameters: {"1426857856524_c0"=>"new companyasdf", "1426857856524_c1"=>"asdfasdfasdfasdfasdf", "editing"=>"true", "1426857856524_gr_id"=>"1426857856524", "1426857856524_!nativeeditor_status"=>"inserted", "ids"=>"1426857856524"}
+
+Errno::ENOENT (No such file or directory - C:/ruby_projects/test/app/views/companies/dbaction.rxml):
+  
+
+Rendered rescues/_trace (26.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#dbaction (for 127.0.0.1 at 2015-03-20 16:24:32) [GET]
+  Parameters: {"editing"=>"true"}
+
+Errno::ENOENT (No such file or directory - C:/ruby_projects/test/app/views/companies/dbaction.rxml):
+  
+
+Rendered rescues/_trace (26.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#dbaction (for 127.0.0.1 at 2015-03-20 16:25:03) [GET]
+  Parameters: {"editing"=>"true"}
+Rendering template within layouts/companies
+Rendering companies/dbaction
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/companies/dbaction/?editing=true]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#view (for 127.0.0.1 at 2015-03-20 16:33:36) [GET]
+Rendering template within layouts/companies
+Rendering companies/view
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/companies/view]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#data (for 127.0.0.1 at 2015-03-20 16:33:36) [GET]
+  Parameters: {"dhxr1426858416549"=>"1"}
+  [4;36;1mCompany Load (1.0ms)[0m   [0;1mSELECT * FROM `companies` [0m
+Rendering companies/data
+  [4;35;1mCompany Columns (25.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+Completed in 33ms (View: 3, DB: 26) | 200 OK [http://localhost/companies/data?dhxr1426858416549=1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#dbaction (for 127.0.0.1 at 2015-03-20 16:33:41) [POST]
+  Parameters: {"1426858421124_gr_id"=>"1426858421124", "editing"=>"true", "1426858421124_c0"=>"new company", "1426858421124_c1"=>"", "1426858421124_!nativeeditor_status"=>"inserted", "ids"=>"1426858421124"}
+Params: name -  description - 
+Mode: 
+Id: 
+Rendering companies/dbaction
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/companies/dbaction/?editing=true]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#view (for 127.0.0.1 at 2015-03-20 16:33:48) [GET]
+Rendering template within layouts/companies
+Rendering companies/view
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/companies/view]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#data (for 127.0.0.1 at 2015-03-20 16:33:49) [GET]
+  Parameters: {"dhxr1426858428785"=>"1"}
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` [0m
+Rendering companies/data
+  [4;35;1mCompany Columns (8.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+Completed in 16ms (View: 4, DB: 8) | 200 OK [http://localhost/companies/data?dhxr1426858428785=1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#view (for 127.0.0.1 at 2015-03-20 16:39:22) [GET]
+Rendering template within layouts/companies
+Rendering companies/view
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/companies/view]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#data (for 127.0.0.1 at 2015-03-20 16:39:22) [GET]
+  Parameters: {"dhxr1426858762804"=>"1"}
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` [0m
+Rendering companies/data
+  [4;35;1mCompany Columns (8.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+Completed in 15ms (View: 3, DB: 8) | 200 OK [http://localhost/companies/data?dhxr1426858762804=1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#dbaction (for 127.0.0.1 at 2015-03-20 16:39:24) [POST]
+  Parameters: {"1426858764015_gr_id"=>"1426858764015", "1426858764015_c0"=>"parampamapamaa", "1426858764015_c1"=>"", "editing"=>"true", "ids"=>"1426858764015", "1426858764015_!nativeeditor_status"=>"inserted"}
+Params: name -  description - 
+Mode: 
+Id: 
+Rendering companies/dbaction
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/companies/dbaction/?editing=true]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#view (for 127.0.0.1 at 2015-03-20 16:46:25) [GET]
+Rendering template within layouts/companies
+Rendering companies/view
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/companies/view]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#data (for 127.0.0.1 at 2015-03-20 16:46:25) [GET]
+  Parameters: {"dhxr1426859185715"=>"1"}
+  [4;36;1mCompany Load (1.0ms)[0m   [0;1mSELECT * FROM `companies` [0m
+Rendering companies/data
+  [4;35;1mCompany Columns (8.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+Completed in 15ms (View: 2, DB: 10) | 200 OK [http://localhost/companies/data?dhxr1426859185715=1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#dbaction (for 127.0.0.1 at 2015-03-20 16:46:27) [POST]
+  Parameters: {"1426859187376_gr_id"=>"1426859187376", "editing"=>"true", "1426859187376_!nativeeditor_status"=>"inserted", "ids"=>"1426859187376", "1426859187376_c0"=>"parampamapamaa", "1426859187376_c1"=>""}
+Params: name - parampamapamaa description - 
+Mode: 
+Id: 
+Rendering companies/dbaction
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/companies/dbaction/?editing=true]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#view (for 127.0.0.1 at 2015-03-20 16:56:20) [GET]
+Rendering template within layouts/companies
+Rendering companies/view
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/companies/view]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#data (for 127.0.0.1 at 2015-03-20 16:56:21) [GET]
+  Parameters: {"dhxr1426859781238"=>"1"}
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` [0m
+Rendering companies/data
+  [4;35;1mCompany Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+Completed in 15ms (View: 4, DB: 7) | 200 OK [http://localhost/companies/data?dhxr1426859781238=1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#dbaction (for 127.0.0.1 at 2015-03-20 16:56:23) [POST]
+  Parameters: {"1426859782878_gr_id"=>"1426859782878", "editing"=>"true", "ids"=>"1426859782878", "1426859782878_c0"=>"parampamapamaa", "1426859782878_c1"=>"", "1426859782878_!nativeeditor_status"=>"inserted"}
+Params: name - parampamapamaa description - 
+Mode: inserted
+Id: 1426859782878
+  [4;36;1mCompany Columns (7.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mCompany Create (0.0ms)[0m   [0;1mINSERT INTO `companies` (`updated_at`, `description`, `created_at`, `name`) VALUES('2015-03-20 13:56:23', '', '2015-03-20 13:56:23', 'parampamapamaa')[0m
+  [4;35;1mSQL (66.0ms)[0m   [0mCOMMIT[0m
+Rendering companies/dbaction
+Completed in 81ms (View: 1, DB: 73) | 200 OK [http://localhost/companies/dbaction/?editing=true]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#dbaction (for 127.0.0.1 at 2015-03-20 16:56:27) [POST]
+  Parameters: {"5_!nativeeditor_status"=>"updated", "5_gr_id"=>"5", "editing"=>"true", "ids"=>"5", "5_c0"=>"parampamapamaa", "5_c1"=>"dfgdfgdfgdfgdfg"}
+Params: name - parampamapamaa description - dfgdfgdfgdfgdfg
+Mode: updated
+Id: 5
+  [4;36;1mCompany Columns (8.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (1.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 5) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mCompany Update (16.0ms)[0m   [0mUPDATE `companies` SET `description` = 'dfgdfgdfgdfgdfg', `updated_at` = '2015-03-20 13:56:27' WHERE `id` = 5[0m
+  [4;36;1mSQL (20.0ms)[0m   [0;1mCOMMIT[0m
+Rendering companies/dbaction
+Completed in 50ms (View: 1, DB: 45) | 200 OK [http://localhost/companies/dbaction/?editing=true]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#dbaction (for 127.0.0.1 at 2015-03-20 16:58:37) [POST]
+  Parameters: {"3_c0"=>"Horizont1", "3_c1"=>"Horizont description", "editing"=>"true", "3_gr_id"=>"3", "3_!nativeeditor_status"=>"updated", "ids"=>"3"}
+Params: name - Horizont1 description - Horizont description
+Mode: updated
+Id: 3
+  [4;35;1mCompany Columns (10.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` WHERE (`companies`.`id` = 3) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mCompany Update (0.0ms)[0m   [0;1mUPDATE `companies` SET `updated_at` = '2015-03-20 13:58:37', `name` = 'Horizont1' WHERE `id` = 3[0m
+  [4;35;1mSQL (70.0ms)[0m   [0mCOMMIT[0m
+Rendering companies/dbaction
+Completed in 82ms (View: 1, DB: 80) | 200 OK [http://localhost/companies/dbaction/?editing=true]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#view (for 127.0.0.1 at 2015-03-20 17:07:25) [GET]
+Rendering template within layouts/companies
+Rendering companies/view
+Completed in 5ms (View: 4, DB: 1) | 200 OK [http://localhost/companies/view]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#data (for 127.0.0.1 at 2015-03-20 17:07:25) [GET]
+  Parameters: {"dhxr1426860445604"=>"1"}
+  [4;36;1mCompany Load (1.0ms)[0m   [0;1mSELECT * FROM `companies` [0m
+Rendering companies/data
+  [4;35;1mCompany Columns (11.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+Completed in 43ms (View: 3, DB: 12) | 200 OK [http://localhost/companies/data?dhxr1426860445604=1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#view (for 127.0.0.1 at 2015-03-20 17:18:45) [GET]
+Rendering template within layouts/companies
+Rendering companies/view
+ERROR: compiling _run_erb_app47views47companies47view46erb RAISED compile error
+C:/ruby_projects/test/app/views/companies/view.erb:20: syntax error, unexpected ')'
+...", :action => "show", :id => ).to_s); @output_buffer.concat ...
+                              ^
+Function body:           def _run_erb_app47views47companies47view46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "\n<h1>Listing companies</h1>\n\n<div id=\"grid_here\" style=\"width:600px; height:400px;\">\n</div>\n\n<script type=\"text/javascript\" charset=\"utf-8\">\n    var grid = new dhtmlXGridObject(\"grid_here\");\n    grid.setImagePath(\"/javascripts/codebase/imgs/\");\n    grid.setHeader(\"Name, Description\");\n    grid.setInitWidths(\"100,*\");\n    grid.setSkin(\"dhx_skyblue\");\n    grid.init();\n    grid.load(\"/companies/data\"); //added !\n\n    dp = new dataProcessor(\"/companies/dbaction/\");\n    dp.init(grid);\n\n    function showCompany(id){\n        window.location = \""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+; @output_buffer.concat(( link_to "Company", :controller => "companies", :action => "show", :id => ).to_s); @output_buffer.concat " \" + id\n    }\n</script>\n\n<input type=\"button\" value=\"Add\" onclick=\"grid.addRow(grid.uid(),'parampamapamaa')\">\n<input type=\"button\" value=\"Delete\" onclick=\"grid.deleteSelectedRows()\">\n<input type=\"button\" value=\"Show\" onclick=\"showCompany(togrid.getSelectedRowId())\">\n"
+
+
+
+
+
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: C:/ruby_projects/test/app/views/companies/view.erb:30:in `compile!'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.17/lib/action_view/renderable.rb:61:in `compile'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.17/lib/action_view/renderable.rb:28:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.17/lib/action_view/template.rb:205:in `render_template'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.17/lib/action_view/base.rb:265:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.17/lib/action_view/base.rb:348:in `_render_with_layout'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.17/lib/action_view/base.rb:262:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.17/lib/action_controller/base.rb:1252:in `render_for_file'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.17/lib/action_controller/base.rb:936:in `render_without_benchmark'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.17/lib/action_controller/benchmarking.rb:51:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.17/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby187/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.17/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.17/lib/action_controller/benchmarking.rb:51:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.17/lib/action_controller/base.rb:1328:in `default_render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.17/lib/action_controller/base.rb:1340:in `perform_action_without_filters'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.17/lib/action_controller/filters.rb:617:in `call_filters'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.17/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.17/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.17/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby187/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.17/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.17/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.17/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.17/lib/action_controller/flash.rb:151:in `perform_action'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.17/lib/action_controller/base.rb:532:in `send'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.17/lib/action_controller/base.rb:532:in `process_without_filters'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.17/lib/action_controller/filters.rb:606:in `process'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.17/lib/action_controller/base.rb:391:in `process'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.17/lib/action_controller/base.rb:386:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.17/lib/action_controller/routing/route_set.rb:438:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.17/lib/action_controller/dispatcher.rb:87:in `dispatch'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.17/lib/action_controller/dispatcher.rb:121:in `_call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.17/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.17/lib/active_record/query_cache.rb:29:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.17/lib/active_record/query_cache.rb:29:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.17/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.17/lib/active_record/query_cache.rb:9:in `cache'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.17/lib/active_record/query_cache.rb:28:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.17/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.17/lib/action_controller/string_coercion.rb:25:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/head.rb:9:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/methodoverride.rb:24:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.17/lib/action_controller/params_parser.rb:15:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.17/lib/action_controller/session/cookie_store.rb:99:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.17/lib/action_controller/failsafe.rb:26:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `synchronize'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.17/lib/action_controller/dispatcher.rb:114:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.17/lib/action_controller/reloader.rb:34:in `run'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.17/lib/action_controller/dispatcher.rb:108:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.17/lib/rails/rack/static.rb:31:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:47:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `each'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.17/lib/rails/rack/log_tailer.rb:17:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/content_length.rb:13:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/chunked.rb:15:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/mongrel.rb:67:in `process'
+C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:159:in `process_client'
+C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:158:in `each'
+C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:158:in `process_client'
+C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:285:in `run'
+C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:285:in `initialize'
+C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:285:in `new'
+C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:285:in `run'
+C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:268:in `initialize'
+C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:268:in `new'
+C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:268:in `run'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/mongrel.rb:38:in `run'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.17/lib/commands/server.rb:111
+C:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+C:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+C:/ruby_projects/test/app/views/companies/view.erb:20: syntax error, unexpected ')'
+...", :action => "show", :id => ).to_s); @output_buffer.concat ...
+                              ^) on line #20 of app/views/companies/view.erb:
+17:     dp.init(grid);
+18: 
+19:     function showCompany(id){
+20:         window.location = "<%= link_to "Company", :controller => "companies", :action => "show", :id => %> " + id
+21:     }
+22: </script>
+23: 
+
+    app/views/companies/view.erb:30:in `compile!'
+
+Rendered rescues/_trace (26.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#view (for 127.0.0.1 at 2015-03-20 17:20:49) [GET]
+Rendering template within layouts/companies
+Rendering companies/view
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/companies/view]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#data (for 127.0.0.1 at 2015-03-20 17:20:50) [GET]
+  Parameters: {"dhxr1426861250179"=>"1"}
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` [0m
+Rendering companies/data
+  [4;35;1mCompany Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+Completed in 15ms (View: 4, DB: 7) | 200 OK [http://localhost/companies/data?dhxr1426861250179=1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#4 (for 127.0.0.1 at 2015-03-20 17:20:54) [GET]
+
+ActionController::UnknownAction (No action responded to 4. Actions: create, data, dbaction, destroy, edit, index, new, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#show (for 127.0.0.1 at 2015-03-20 17:24:55) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mCompany Columns (7.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 4) [0m
+Rendering template within layouts/companies
+Rendering companies/show
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.company_id = 4) [0m
+Completed in 28ms (View: 15, DB: 7) | 200 OK [http://localhost/companies/4]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#index (for 127.0.0.1 at 2015-03-20 17:24:59) [GET]
+  [4;35;1mCompany Load (1.0ms)[0m   [0mSELECT * FROM `companies` [0m
+Rendering template within layouts/companies
+Rendering companies/index
+  [4;36;1mCompany Columns (8.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+Completed in 24ms (View: 12, DB: 9) | 200 OK [http://localhost/companies]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#show (for 127.0.0.1 at 2015-03-20 17:25:04) [GET]
+  Parameters: {"id"=>"view"}
+  [4;35;1mCompany Columns (8.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` WHERE (`companies`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Company with ID=view):
+  app/controllers/companies_controller.rb:124:in `find_company'
+
+Rendered rescues/_trace (24.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#show (for 127.0.0.1 at 2015-03-20 17:25:04) [GET]
+  Parameters: {"id"=>"view"}
+  [4;35;1mCompany Columns (5.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` WHERE (`companies`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Company with ID=view):
+  app/controllers/companies_controller.rb:124:in `find_company'
+
+Rendered rescues/_trace (23.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#show (for 127.0.0.1 at 2015-03-20 17:25:47) [GET]
+  Parameters: {"id"=>"view"}
+  [4;35;1mCompany Columns (9.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` WHERE (`companies`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Company with ID=view):
+  app/controllers/companies_controller.rb:124:in `find_company'
+
+Rendered rescues/_trace (23.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#show (for 127.0.0.1 at 2015-03-20 17:25:51) [GET]
+  Parameters: {"id"=>"view"}
+  [4;35;1mCompany Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+  [4;36;1mCompany Load (1.0ms)[0m   [0;1mSELECT * FROM `companies` WHERE (`companies`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Company with ID=view):
+  app/controllers/companies_controller.rb:124:in `find_company'
+
+Rendered rescues/_trace (23.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#show (for 127.0.0.1 at 2015-03-20 18:27:53) [GET]
+  Parameters: {"id"=>"view"}
+  [4;35;1mCompany Columns (8.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` WHERE (`companies`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Company with ID=view):
+  app/controllers/companies_controller.rb:124:in `find_company'
+
+Rendered rescues/_trace (23.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#show (for 127.0.0.1 at 2015-03-20 18:30:53) [GET]
+  Parameters: {"id"=>"view"}
+  [4;35;1mCompany Columns (8.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+  [4;36;1mCompany Load (1.0ms)[0m   [0;1mSELECT * FROM `companies` WHERE (`companies`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Company with ID=view):
+  app/controllers/companies_controller.rb:124:in `find_company'
+
+Rendered rescues/_trace (25.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#show (for 127.0.0.1 at 2015-03-20 18:30:56) [GET]
+  Parameters: {"id"=>"view"}
+  [4;35;1mCompany Columns (17.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` WHERE (`companies`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Company with ID=view):
+  app/controllers/companies_controller.rb:124:in `find_company'
+
+Rendered rescues/_trace (22.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#view (for 127.0.0.1 at 2015-03-20 18:31:08) [GET]
+Rendering template within layouts/companies
+Rendering companies/view
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://localhost/companies/view]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#show (for 127.0.0.1 at 2015-03-20 18:31:09) [GET]
+  Parameters: {"dhxr1426865469141"=>"1", "id"=>"data"}
+  [4;35;1mCompany Columns (8.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` WHERE (`companies`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Company with ID=data):
+  app/controllers/companies_controller.rb:124:in `find_company'
+
+Rendered rescues/_trace (24.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#view (for 127.0.0.1 at 2015-03-20 18:32:04) [GET]
+Rendering template within layouts/companies
+Rendering companies/view
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/companies/view]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#show (for 127.0.0.1 at 2015-03-20 18:32:05) [GET]
+  Parameters: {"id"=>"data", "dhxr1426865524791"=>"1"}
+  [4;35;1mCompany Columns (8.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+  [4;36;1mCompany Load (1.0ms)[0m   [0;1mSELECT * FROM `companies` WHERE (`companies`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Company with ID=data):
+  app/controllers/companies_controller.rb:124:in `find_company'
+
+Rendered rescues/_trace (24.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#view (for 127.0.0.1 at 2015-03-20 18:36:35) [GET]
+Rendering template within layouts/companies
+Rendering companies/view
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://localhost/companies/view]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#data (for 127.0.0.1 at 2015-03-20 18:36:35) [GET]
+  Parameters: {"dhxr1426865795940"=>"1"}
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` [0m
+Rendering companies/data
+  [4;36;1mCompany Columns (7.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+Completed in 15ms (View: 4, DB: 7) | 200 OK [http://localhost/companies/data?dhxr1426865795940=1]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#show (for 127.0.0.1 at 2015-03-20 18:36:40) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mCompany Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` WHERE (`companies`.`id` = 5) [0m
+Rendering template within layouts/companies
+Rendering companies/show
+  [4;35;1mFactory Load (0.0ms)[0m   [0mSELECT * FROM `factories` WHERE (`factories`.company_id = 5) [0m
+Completed in 18ms (View: 6, DB: 7) | 200 OK [http://localhost/companies/5]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#index (for 127.0.0.1 at 2015-03-20 18:36:43) [GET]
+  [4;36;1mCompany Load (1.0ms)[0m   [0;1mSELECT * FROM `companies` [0m
+Rendering template within layouts/companies
+Rendering companies/index
+  [4;35;1mCompany Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+Completed in 21ms (View: 10, DB: 8) | 200 OK [http://localhost/companies]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#view (for 127.0.0.1 at 2015-03-20 18:36:50) [GET]
+Rendering template within layouts/companies
+Rendering companies/view
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/companies/view]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#data (for 127.0.0.1 at 2015-03-20 18:36:50) [GET]
+  Parameters: {"dhxr1426865810521"=>"1"}
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` [0m
+Rendering companies/data
+  [4;35;1mCompany Columns (10.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+Completed in 20ms (View: 0, DB: 10) | 200 OK [http://localhost/companies/data?dhxr1426865810521=1]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#show (for 127.0.0.1 at 2015-03-20 18:36:56) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mCompany Columns (8.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (1.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 5) [0m
+Rendering template within layouts/companies
+Rendering companies/show
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.company_id = 5) [0m
+Completed in 20ms (View: 7, DB: 10) | 200 OK [http://localhost/companies/5]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#index (for 127.0.0.1 at 2015-03-20 18:37:10) [GET]
+  Parameters: {"company_id"=>"5"}
+  [4;35;1mCompany Columns (15.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` WHERE (`companies`.`id` = 5) [0m
+Rendering template within layouts/factories
+Rendering factories/index
+  [4;35;1mFactory Load (0.0ms)[0m   [0mSELECT * FROM `factories` WHERE (`factories`.company_id = 5) [0m
+Completed in 33ms (View: 10, DB: 15) | 200 OK [http://localhost/companies/5/factories]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#show (for 127.0.0.1 at 2015-03-20 18:37:13) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mCompany Columns (8.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (1.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 5) [0m
+Rendering template within layouts/companies
+Rendering companies/show
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` WHERE (`factories`.company_id = 5) [0m
+Completed in 28ms (View: 6, DB: 9) | 200 OK [http://localhost/companies/5]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#index (for 127.0.0.1 at 2015-03-20 18:37:16) [GET]
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` [0m
+Rendering template within layouts/companies
+Rendering companies/index
+  [4;36;1mCompany Columns (8.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+Completed in 22ms (View: 9, DB: 8) | 200 OK [http://localhost/companies]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#view (for 127.0.0.1 at 2015-03-20 18:37:20) [GET]
+Rendering template within layouts/companies
+Rendering companies/view
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/companies/view]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#data (for 127.0.0.1 at 2015-03-20 18:37:21) [GET]
+  Parameters: {"dhxr1426865841128"=>"1"}
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` [0m
+Rendering companies/data
+  [4;36;1mCompany Columns (10.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+Completed in 20ms (View: 0, DB: 10) | 200 OK [http://localhost/companies/data?dhxr1426865841128=1]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#show (for 127.0.0.1 at 2015-03-20 18:37:33) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mCompany Columns (8.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+  [4;36;1mCompany Load (1.0ms)[0m   [0;1mSELECT * FROM `companies` WHERE (`companies`.`id` = 1) [0m
+Rendering template within layouts/companies
+Rendering companies/show
+  [4;35;1mFactory Load (1.0ms)[0m   [0mSELECT * FROM `factories` WHERE (`factories`.company_id = 1) [0m
+  [4;36;1mFactory Columns (6.0ms)[0m   [0;1mSHOW FIELDS FROM `factories`[0m
+Completed in 26ms (View: 7, DB: 16) | 200 OK [http://localhost/companies/1]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#index (for 127.0.0.1 at 2015-03-20 18:37:35) [GET]
+  Parameters: {"company_id"=>"1"}
+  [4;35;1mCompany Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` WHERE (`companies`.`id` = 1) [0m
+Rendering template within layouts/factories
+Rendering factories/index
+  [4;35;1mFactory Load (0.0ms)[0m   [0mSELECT * FROM `factories` WHERE (`factories`.company_id = 1) [0m
+  [4;36;1mFactory Columns (5.0ms)[0m   [0;1mSHOW FIELDS FROM `factories`[0m
+Completed in 30ms (View: 9, DB: 12) | 200 OK [http://localhost/companies/1/factories]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#view (for 127.0.0.1 at 2015-03-20 18:58:25) [GET]
+Rendering template within layouts/companies
+Rendering companies/view
+Completed in 0ms (View: 0, DB: 1) | 200 OK [http://localhost/companies/view]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#data (for 127.0.0.1 at 2015-03-20 18:58:25) [GET]
+  Parameters: {"dhxr1426867105915"=>"1"}
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` [0m
+Rendering companies/data
+  [4;36;1mCompany Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+Completed in 20ms (View: 10, DB: 0) | 200 OK [http://localhost/companies/data?dhxr1426867105915=1]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#view (for 127.0.0.1 at 2015-03-20 18:58:32) [GET]
+
+ActiveRecord::RecordNotFound (Couldn't find Company without an ID):
+  app/controllers/factories_controller.rb:55:in `find_company'
+
+Rendered rescues/_trace (58.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#view (for 127.0.0.1 at 2015-03-20 18:59:41) [GET]
+
+ActiveRecord::RecordNotFound (Couldn't find Company without an ID):
+  app/controllers/factories_controller.rb:55:in `find_company'
+
+Rendered rescues/_trace (24.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#view (for 127.0.0.1 at 2015-03-20 19:01:54) [GET]
+
+ActiveRecord::RecordNotFound (Couldn't find Company without an ID):
+  app/controllers/factories_controller.rb:97:in `find_company'
+
+Rendered rescues/_trace (23.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#view (for 127.0.0.1 at 2015-03-20 19:03:37) [GET]
+
+ActiveRecord::RecordNotFound (Couldn't find Factory without an ID):
+  app/controllers/products_controller.rb:56:in `find_factory'
+
+Rendered rescues/_trace (50.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#view (for 127.0.0.1 at 2015-03-20 19:03:47) [GET]
+Rendering template within layouts/companies
+Rendering companies/view
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/companies/view]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#data (for 127.0.0.1 at 2015-03-20 19:03:47) [GET]
+  Parameters: {"dhxr1426867427612"=>"1"}
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` [0m
+Rendering companies/data
+  [4;36;1mCompany Columns (8.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+Completed in 16ms (View: 3, DB: 8) | 200 OK [http://localhost/companies/data?dhxr1426867427612=1]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#view (for 127.0.0.1 at 2015-03-20 19:05:13) [GET]
+Rendering template within layouts/companies
+Rendering companies/view
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/companies/view]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#data (for 127.0.0.1 at 2015-03-20 19:05:14) [GET]
+  Parameters: {"dhxr1426867513779"=>"1"}
+  [4;35;1mCompany Load (1.0ms)[0m   [0mSELECT * FROM `companies` [0m
+Rendering companies/data
+  [4;36;1mCompany Columns (10.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+Completed in 18ms (View: 3, DB: 11) | 200 OK [http://localhost/companies/data?dhxr1426867513779=1]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#dbaction (for 127.0.0.1 at 2015-03-20 19:06:51) [POST]
+  Parameters: {"1426867611574_!nativeeditor_status"=>"inserted", "editing"=>"true", "1426867611574_c0"=>"parampamapamaa", "1426867611574_c1"=>"", "ids"=>"1426867611574", "1426867611574_gr_id"=>"1426867611574"}
+Rendering home/dbaction
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/home/dbaction/?editing=true]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#view (for 127.0.0.1 at 2015-03-20 19:09:46) [GET]
+Rendering template within layouts/companies
+Rendering companies/view
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/companies/view]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#data (for 127.0.0.1 at 2015-03-20 19:09:46) [GET]
+  Parameters: {"dhxr1426867786905"=>"1"}
+  [4;35;1mCompany Load (1.0ms)[0m   [0mSELECT * FROM `companies` [0m
+Rendering companies/data
+  [4;36;1mCompany Columns (20.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+Completed in 27ms (View: 3, DB: 21) | 200 OK [http://localhost/companies/data?dhxr1426867786905=1]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#dbaction (for 127.0.0.1 at 2015-03-20 19:09:49) [POST]
+  Parameters: {"1426867788908_c0"=>"parampamapamaa", "1426867788908_c1"=>"", "1426867788908_!nativeeditor_status"=>"inserted", "editing"=>"true", "ids"=>"1426867788908", "1426867788908_gr_id"=>"1426867788908"}
+Params: name - parampamapamaa description - 
+Mode: inserted
+Id: 1426867788908
+  [4;35;1mCompany Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mCompany Create (0.0ms)[0m   [0mINSERT INTO `companies` (`updated_at`, `description`, `created_at`, `name`) VALUES('2015-03-20 16:09:49', '', '2015-03-20 16:09:49', 'parampamapamaa')[0m
+  [4;36;1mSQL (48.0ms)[0m   [0;1mCOMMIT[0m
+Rendering companies/dbaction
+Completed in 70ms (View: 1, DB: 48) | 200 OK [http://localhost/companies/dbaction/?editing=true]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#dbaction (for 127.0.0.1 at 2015-03-20 19:09:52) [POST]
+  Parameters: {"6_gr_id"=>"6", "6_c0"=>"test", "6_c1"=>"", "editing"=>"true", "6_!nativeeditor_status"=>"updated", "ids"=>"6"}
+Params: name - test description - 
+Mode: updated
+Id: 6
+  [4;35;1mCompany Columns (8.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+  [4;36;1mCompany Load (1.0ms)[0m   [0;1mSELECT * FROM `companies` WHERE (`companies`.`id` = 6) [0m
+  [4;35;1mSQL (1.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mCompany Update (1.0ms)[0m   [0;1mUPDATE `companies` SET `updated_at` = '2015-03-20 16:09:52', `name` = 'test' WHERE `id` = 6[0m
+  [4;35;1mSQL (25.0ms)[0m   [0mCOMMIT[0m
+Rendering companies/dbaction
+Completed in 49ms (View: 0, DB: 36) | 200 OK [http://localhost/companies/dbaction/?editing=true]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#dbaction (for 127.0.0.1 at 2015-03-20 19:09:54) [POST]
+  Parameters: {"6_gr_id"=>"6", "6_c0"=>"test", "6_c1"=>"tests", "editing"=>"true", "6_!nativeeditor_status"=>"updated", "ids"=>"6"}
+Params: name - test description - tests
+Mode: updated
+Id: 6
+  [4;36;1mCompany Columns (10.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 6) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mCompany Update (0.0ms)[0m   [0mUPDATE `companies` SET `description` = 'tests', `updated_at` = '2015-03-20 16:09:54' WHERE `id` = 6[0m
+  [4;36;1mSQL (64.0ms)[0m   [0;1mCOMMIT[0m
+Rendering companies/dbaction
+Completed in 75ms (View: 1, DB: 74) | 200 OK [http://localhost/companies/dbaction/?editing=true]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#view (for 127.0.0.1 at 2015-03-20 19:10:16) [GET]
+Rendering template within layouts/companies
+Rendering companies/view
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/companies/view]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#data (for 127.0.0.1 at 2015-03-20 19:10:16) [GET]
+  Parameters: {"dhxr1426867816550"=>"1"}
+  [4;35;1mCompany Load (1.0ms)[0m   [0mSELECT * FROM `companies` [0m
+Rendering companies/data
+  [4;36;1mCompany Columns (8.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+Completed in 16ms (View: 3, DB: 9) | 200 OK [http://localhost/companies/data?dhxr1426867816550=1]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#show (for 127.0.0.1 at 2015-03-20 19:10:33) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mCompany Columns (8.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` WHERE (`companies`.`id` = 4) [0m
+Rendering template within layouts/companies
+Rendering companies/show
+  [4;35;1mFactory Load (0.0ms)[0m   [0mSELECT * FROM `factories` WHERE (`factories`.company_id = 4) [0m
+Completed in 18ms (View: 6, DB: 8) | 200 OK [http://localhost/companies/4]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#index (for 127.0.0.1 at 2015-03-20 19:10:35) [GET]
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` [0m
+Rendering template within layouts/companies
+Rendering companies/index
+  [4;35;1mCompany Columns (8.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+Completed in 23ms (View: 10, DB: 8) | 200 OK [http://localhost/companies]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#view (for 127.0.0.1 at 2015-03-20 19:10:40) [GET]
+Rendering template within layouts/companies
+Rendering companies/view
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/companies/view]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#data (for 127.0.0.1 at 2015-03-20 19:10:40) [GET]
+  Parameters: {"dhxr1426867840852"=>"1"}
+  [4;36;1mCompany Load (1.0ms)[0m   [0;1mSELECT * FROM `companies` [0m
+Rendering companies/data
+  [4;35;1mCompany Columns (8.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+Completed in 17ms (View: 4, DB: 9) | 200 OK [http://localhost/companies/data?dhxr1426867840852=1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#view (for 127.0.0.1 at 2015-03-20 19:10:41) [GET]
+Rendering template within layouts/companies
+Rendering companies/view
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://localhost/companies/view]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#data (for 127.0.0.1 at 2015-03-20 19:10:41) [GET]
+  Parameters: {"dhxr1426867841342"=>"1"}
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` [0m
+Rendering companies/data
+  [4;35;1mCompany Columns (8.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+Completed in 16ms (View: 3, DB: 9) | 200 OK [http://localhost/companies/data?dhxr1426867841342=1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#view (for 127.0.0.1 at 2015-03-20 19:10:46) [GET]
+
+ActiveRecord::RecordNotFound (Couldn't find Company without an ID):
+  app/controllers/factories_controller.rb:97:in `find_company'
+
+Rendered rescues/_trace (22.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#view (for 127.0.0.1 at 2015-03-20 19:10:55) [GET]
+
+ActiveRecord::RecordNotFound (Couldn't find Factory without an ID):
+  app/controllers/products_controller.rb:98:in `find_factory'
+
+Rendered rescues/_trace (24.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#view (for 127.0.0.1 at 2015-03-20 19:14:27) [GET]
+Rendering template within layouts/products
+Rendering products/view
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/products/view]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#data (for 127.0.0.1 at 2015-03-20 19:14:27) [GET]
+  Parameters: {"dhxr1426868067672"=>"1"}
+
+ActiveRecord::RecordNotFound (Couldn't find Factory without an ID):
+  app/controllers/products_controller.rb:99:in `find_factory'
+
+Rendered rescues/_trace (23.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#view (for 127.0.0.1 at 2015-03-20 19:16:35) [GET]
+Rendering template within layouts/factories
+Rendering factories/view
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/factories/view]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#data (for 127.0.0.1 at 2015-03-20 19:16:35) [GET]
+  Parameters: {"dhxr1426868195193"=>"1"}
+
+ActiveRecord::RecordNotFound (Couldn't find Company without an ID):
+  app/controllers/factories_controller.rb:98:in `find_company'
+
+Rendered rescues/_trace (24.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#view (for 127.0.0.1 at 2015-03-20 19:23:04) [GET]
+Rendering template within layouts/factories
+Rendering factories/view
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://localhost/factories/view]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#data (for 127.0.0.1 at 2015-03-20 19:23:05) [GET]
+  Parameters: {"dhxr1426868584749"=>"1"}
+
+ActiveRecord::RecordNotFound (Couldn't find Company without an ID):
+  app/controllers/factories_controller.rb:98:in `find_company'
+
+Rendered rescues/_trace (24.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#data (for 127.0.0.1 at 2015-03-20 19:23:11) [GET]
+  Parameters: {"dhxr1426868584749"=>"1"}
+
+ActiveRecord::RecordNotFound (Couldn't find Company without an ID):
+  app/controllers/factories_controller.rb:98:in `find_company'
+
+Rendered rescues/_trace (24.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#view (for 127.0.0.1 at 2015-03-20 19:24:13) [GET]
+
+ActiveRecord::RecordNotFound (Couldn't find Company without an ID):
+  app/controllers/factories_controller.rb:98:in `find_company'
+
+Rendered rescues/_trace (50.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#view (for 127.0.0.1 at 2015-03-20 19:24:35) [GET]
+Rendering template within layouts/factories
+Rendering factories/view
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/factories/view]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#data (for 127.0.0.1 at 2015-03-20 19:24:35) [GET]
+  Parameters: {"dhxr1426868675669"=>"1"}
+  [4;36;1mFactory Load (1.0ms)[0m   [0;1mSELECT * FROM `factories` [0m
+Rendering factories/data
+  [4;35;1mFactory Columns (8.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+Completed in 19ms (View: 5, DB: 9) | 200 OK [http://localhost/factories/data?dhxr1426868675669=1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#view (for 127.0.0.1 at 2015-03-20 19:24:43) [GET]
+Rendering template within layouts/products
+Rendering products/view
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/products/view]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#data (for 127.0.0.1 at 2015-03-20 19:24:44) [GET]
+  Parameters: {"dhxr1426868683868"=>"1"}
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM `products` [0m
+Rendering products/data
+  [4;35;1mProduct Columns (12.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+Completed in 21ms (View: 5, DB: 13) | 200 OK [http://localhost/products/data?dhxr1426868683868=1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2015-03-20 19:25:00) [GET]
+  Parameters: {"id"=>"4"}
+
+ActiveRecord::RecordNotFound (Couldn't find Factory without an ID):
+  app/controllers/products_controller.rb:99:in `find_factory'
+
+Rendered rescues/_trace (22.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2015-03-20 19:29:52) [GET]
+  Parameters: {"id"=>"4"}
+
+NoMethodError (undefined method `products' for nil:NilClass):
+  app/controllers/products_controller.rb:13:in `show'
+
+Rendered rescues/_trace (49.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#data (for 127.0.0.1 at 2015-03-20 19:30:58) [GET]
+  Parameters: {"dhxr1426869058494"=>"1"}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM `products` [0m
+Rendering products/data
+  [4;35;1mProduct Columns (12.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+Completed in 19ms (View: 3, DB: 12) | 200 OK [http://localhost/products/data?dhxr1426869058494=1]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2015-03-20 19:31:01) [GET]
+  Parameters: {"id"=>"4"}
+
+NoMethodError (undefined method `products' for nil:NilClass):
+  app/controllers/products_controller.rb:13:in `show'
+
+Rendered rescues/_trace (22.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2015-03-20 19:31:56) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mProduct Columns (12.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.`id` = 4) [0m
+  [4;36;1mFactory Columns (5.0ms)[0m   [0;1mSHOW FIELDS FROM `factories`[0m
+  [4;35;1mFactory Load (0.0ms)[0m   [0mSELECT * FROM `factories` WHERE (`factories`.`id` = 1) [0m
+Rendering template within layouts/products
+Rendering products/show
+Completed in 31ms (View: 4, DB: 18) | 200 OK [http://localhost/products/4]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#edit (for 127.0.0.1 at 2015-03-20 19:32:02) [GET]
+  Parameters: {"factory_id"=>"1", "id"=>"4"}
+  [4;36;1mFactory Columns (8.0ms)[0m   [0;1mSHOW FIELDS FROM `factories`[0m
+  [4;35;1mFactory Load (1.0ms)[0m   [0mSELECT * FROM `factories` WHERE (`factories`.`id` = 1) [0m
+  [4;36;1mProduct Columns (10.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.`id` = 4 AND (`products`.factory_id = 1)) [0m
+Rendering template within layouts/products
+Rendering products/edit
+Rendered products/_form (5.0ms)
+Completed in 68ms (View: 41, DB: 20) | 200 OK [http://localhost/factories/1/products/4/edit]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2015-03-20 19:32:11) [GET]
+  Parameters: {"factory_id"=>"1"}
+  [4;36;1mFactory Columns (9.0ms)[0m   [0;1mSHOW FIELDS FROM `factories`[0m
+  [4;35;1mFactory Load (0.0ms)[0m   [0mSELECT * FROM `factories` WHERE (`factories`.`id` = 1) [0m
+  [4;36;1mCompany Columns (6.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 1) [0m
+Rendering template within layouts/products
+Rendering products/index
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.factory_id = 1) [0m
+  [4;35;1mProduct Columns (10.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+Completed in 45ms (View: 7, DB: 27) | 200 OK [http://localhost/factories/1/products]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2015-03-20 19:32:16) [GET]
+  Parameters: {"factory_id"=>"1", "id"=>"view"}
+  [4;36;1mProduct Columns (12.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Product with ID=view):
+  app/controllers/products_controller.rb:13:in `show'
+
+Rendered rescues/_trace (22.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#view (for 127.0.0.1 at 2015-03-20 19:32:34) [GET]
+Rendering template within layouts/products
+Rendering products/view
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/products/view]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#data (for 127.0.0.1 at 2015-03-20 19:32:34) [GET]
+  Parameters: {"dhxr1426869154199"=>"1"}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM `products` [0m
+Rendering products/data
+  [4;35;1mProduct Columns (11.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+Completed in 19ms (View: 3, DB: 11) | 200 OK [http://localhost/products/data?dhxr1426869154199=1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2015-03-20 19:32:42) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mProduct Columns (26.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.`id` = 4) [0m
+  [4;36;1mFactory Columns (6.0ms)[0m   [0;1mSHOW FIELDS FROM `factories`[0m
+  [4;35;1mFactory Load (0.0ms)[0m   [0mSELECT * FROM `factories` WHERE (`factories`.`id` = 1) [0m
+Rendering template within layouts/products
+Rendering products/show
+Completed in 42ms (View: 2, DB: 33) | 200 OK [http://localhost/products/4]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#edit (for 127.0.0.1 at 2015-03-20 19:32:47) [GET]
+  Parameters: {"factory_id"=>"1", "id"=>"4"}
+  [4;36;1mFactory Columns (8.0ms)[0m   [0;1mSHOW FIELDS FROM `factories`[0m
+  [4;35;1mFactory Load (1.0ms)[0m   [0mSELECT * FROM `factories` WHERE (`factories`.`id` = 1) [0m
+  [4;36;1mProduct Columns (10.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.`id` = 4 AND (`products`.factory_id = 1)) [0m
+Rendering template within layouts/products
+Rendering products/edit
+Rendered products/_form (5.0ms)
+Completed in 58ms (View: 6, DB: 19) | 200 OK [http://localhost/factories/1/products/4/edit]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2015-03-20 19:32:49) [GET]
+  Parameters: {"factory_id"=>"1"}
+  [4;36;1mFactory Columns (8.0ms)[0m   [0;1mSHOW FIELDS FROM `factories`[0m
+  [4;35;1mFactory Load (0.0ms)[0m   [0mSELECT * FROM `factories` WHERE (`factories`.`id` = 1) [0m
+  [4;36;1mCompany Columns (7.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (1.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 1) [0m
+Rendering template within layouts/products
+Rendering products/index
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.factory_id = 1) [0m
+  [4;35;1mProduct Columns (10.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+Completed in 42ms (View: 6, DB: 27) | 200 OK [http://localhost/factories/1/products]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#view (for 127.0.0.1 at 2015-03-20 19:32:58) [GET]
+Rendering template within layouts/factories
+Rendering factories/view
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/factories/view]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#data (for 127.0.0.1 at 2015-03-20 19:32:59) [GET]
+  Parameters: {"dhxr1426869179016"=>"1"}
+  [4;36;1mFactory Load (0.0ms)[0m   [0;1mSELECT * FROM `factories` [0m
+Rendering factories/data
+  [4;35;1mFactory Columns (9.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+Completed in 17ms (View: 3, DB: 9) | 200 OK [http://localhost/factories/data?dhxr1426869179016=1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#show (for 127.0.0.1 at 2015-03-20 19:33:01) [GET]
+  Parameters: {"id"=>"4"}
+
+ActiveRecord::RecordNotFound (Couldn't find Company without an ID):
+  app/controllers/factories_controller.rb:98:in `find_company'
+
+Rendered rescues/_trace (23.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#view (for 127.0.0.1 at 2015-03-20 19:33:51) [GET]
+Rendering template within layouts/factories
+Rendering factories/view
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/factories/view]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FactoriesController#data (for 127.0.0.1 at 2015-03-20 19:33:51) [GET]
+  Parameters: {"dhxr1426869231156"=>"1"}
+  [4;36;1mFactory Load (1.0ms)[0m   [0;1mSELECT * FROM `factories` [0m
+Rendering factories/data
+  [4;35;1mFactory Columns (25.0ms)[0m   [0mSHOW FIELDS FROM `factories`[0m
+Completed in 32ms (View: 3, DB: 27) | 200 OK [http://localhost/factories/data?dhxr1426869231156=1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#view (for 127.0.0.1 at 2015-03-20 20:02:51) [GET]
+Rendering template within layouts/companies
+Rendering companies/view
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/companies/view]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#data (for 127.0.0.1 at 2015-03-20 20:02:51) [GET]
+  Parameters: {"dhxr1426870971473"=>"1"}
+  [4;36;1mCompany Load (1.0ms)[0m   [0;1mSELECT * FROM `companies` [0m
+Rendering companies/data
+  [4;35;1mCompany Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+Completed in 17ms (View: 6, DB: 8) | 200 OK [http://localhost/companies/data?dhxr1426870971473=1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#view (for 127.0.0.1 at 2015-03-20 20:03:45) [GET]
+Rendering template within layouts/companies
+Rendering companies/view
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/companies/view]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#data (for 127.0.0.1 at 2015-03-20 20:03:46) [GET]
+  Parameters: {"dhxr1426871025903"=>"1"}
+  [4;36;1mCompany Load (0.0ms)[0m   [0;1mSELECT * FROM `companies` [0m
+Rendering companies/data
+  [4;35;1mCompany Columns (8.0ms)[0m   [0mSHOW FIELDS FROM `companies`[0m
+Completed in 19ms (View: 6, DB: 8) | 200 OK [http://localhost/companies/data?dhxr1426871025903=1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#dbaction (for 127.0.0.1 at 2015-03-20 20:03:49) [POST]
+  Parameters: {"1_gr_id"=>"1", "editing"=>"true", "1_!nativeeditor_status"=>"updated", "1_c0"=>"Scand", "1_c1"=>"Scand description pam pam", "1_c2"=>"", "ids"=>"1"}
+Params: name - Scand description - Scand description pam pam
+Mode: updated
+Id: 1
+  [4;36;1mCompany Columns (7.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 1) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCOMMIT[0m
+Rendering companies/dbaction
+Completed in 15ms (View: 1, DB: 7) | 200 OK [http://localhost/companies/dbaction/?editing=true]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CompaniesController#dbaction (for 127.0.0.1 at 2015-03-20 20:04:08) [POST]
+  Parameters: {"3_c0"=>"Horizont1", "3_c1"=>"Horizont description", "3_c2"=>"", "editing"=>"true", "3_gr_id"=>"3", "3_!nativeeditor_status"=>"updated", "ids"=>"3"}
+Params: name - Horizont1 description - Horizont description
+Mode: updated
+Id: 3
+  [4;36;1mCompany Columns (9.0ms)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+  [4;35;1mCompany Load (0.0ms)[0m   [0mSELECT * FROM `companies` WHERE (`companies`.`id` = 3) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCOMMIT[0m
+Rendering companies/dbaction
+Completed in 17ms (View: 2, DB: 9) | 200 OK [http://localhost/companies/dbaction/?editing=true]

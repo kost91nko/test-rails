@@ -1,4 +1,14 @@
 ActionController::Routing::Routes.draw do |map|
+
+  map.connect ':controller/view/',
+              :action => 'view'
+
+  map.connect ':controller/data/',
+              :action => 'data'
+
+  map.connect ':controller/dbaction/',
+              :action => 'dbaction'
+
   map.resources :products
   map.resources :factories, :has_many => :products
   map.resources :companies, :has_many => :factories

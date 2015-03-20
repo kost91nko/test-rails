@@ -1,5 +1,6 @@
 class ProductsController < ApplicationController
-  before_filter :find_factory
+  before_filter :find_factory,
+                :except => [:data, :dbaction, :view, :show]
   before_filter :find_product,
                 :only => [:update, :destroy]
 
@@ -9,7 +10,8 @@ class ProductsController < ApplicationController
   end
 
   def show
-    @product = @factory.products.find(params[:id])
+    @product = Product.find(params[:id])
+    @factory = Factory.find(@product.factory_id)
   end
 
   def new
@@ -43,6 +45,48 @@ class ProductsController < ApplicationController
     respond_to do |format|
       format.html { redirect_to factory_product_url(@factory) }
       format.xml  { head :ok }
+    end
+  end
+
+  # DHTMLX
+  def data
+    @products = Product.all
+  end
+
+  def dbaction
+    #called for all db actions
+    ids = params["ids"]
+    name        = params[ids + "_c0"]
+    description = params[ids + "_c1"]
+
+    logger.debug "Params: name - #{name} description - #{description}"
+
+    @mode = params[ids + "_!nativeeditor_status"]
+    logger.debug "Mode: #{@mode}"
+
+    @id = params[ids + "_gr_id"]
+    logger.debug "Id: #{@id}"
+
+    case @mode
+      when "inserted"
+        product = Product.new
+        product.name = name
+        product.description = description
+        product.save!
+
+        @tid = product.id
+      when "deleted"
+        product=Product.find(@id)
+        product.destroy
+
+        @tid = @id
+      when "updated"
+        product=Product.find(@id)
+        product.name = name
+        product.description = description
+        product.save!
+
+        @tid = @id
     end
   end
 

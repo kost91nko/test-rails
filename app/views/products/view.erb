@@ -1,0 +1,26 @@
+
+<h1>Listing products</h1>
+
+<div id="grid_here" style="width:600px; height:400px;">
+</div>
+
+<script type="text/javascript" charset="utf-8">
+    var grid = new dhtmlXGridObject("grid_here");
+    grid.setImagePath("/javascripts/codebase/imgs/");
+    grid.setHeader("Name, Description");
+    grid.setInitWidths("100,*");
+    grid.setSkin("dhx_skyblue");
+    grid.init();
+    grid.load("/products/data"); //added !
+
+    dp = new dataProcessor("/products/dbaction/");
+    dp.init(grid);
+
+    function show(id){
+        window.location = "/products/" + id
+    }
+</script>
+
+<input type="button" value="Add" onclick="grid.addRow(grid.uid(),'some name')">
+<input type="button" value="Delete" onclick="grid.deleteSelectedRows()">
+<input type="button" value="Show" onclick="show(grid.getSelectedRowId())">
